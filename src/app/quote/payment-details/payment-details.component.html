@@ -1,0 +1,230 @@
+<div class="maincontent">
+    <div class="container">
+        <div class="content">
+            <div class="details mb-5">
+                <h1 class="headingFirst">Step 4 of 5</h1>
+                <h2 class="headingSecond">Set up a Direct Debit</h2>
+            </div>
+
+            <form [formGroup]="paymentDetailsForm">
+            <div class="bank-details container"> 
+            <div class="bill-details">
+                <h5 class="div-header">Tariff Details</h5>
+                <div class="inner-div1">
+                    <div class="inner-div2">
+                        <div class="row">
+                         <div class="col-md-5">  
+                        <div class="left-inner-div">
+                            <h4 class="price-class">
+                                <span class="" style="font-size: 1.5rem;margin: 0;">£</span>
+                                <span class="" style="font-size: 3rem;margin: 0;">205</span>
+                                <span class="" style="font-size: 1.5rem;margin: 0;">.</span>
+                                <span class="" style="font-size: 1.5rem;margin: 0;">29</span>
+                            </h4>
+                            <p class="per-month-incVat">per month inc. VAT</p>
+                            <h2 class="flexible-octopus">flexible Octopus</h2>
+                            <div class="electricityandgas">
+                                <span class="fa fa-bolt electricity-icon"></span>
+                                <p>electricity</p>
+                                <p>&nbsp; + &nbsp;</p>
+                                <span class="fa fa-fire-alt electricity-icon"></span>
+                                <p>gas</p>
+                            </div>
+                        </div>
+                        </div> 
+                        <div class="col-md-7">
+                        <div class="right-inner-div mt-4">
+                            <ul>
+                                <li class="line-class">
+                                    No engineer or installer visits
+                                </li>
+                                <li class="mt-2 line-class">
+                                    We'll inform your old supplier
+                                </li>
+                                <li class="mt-2 line-class">
+                                    No exit fees at any time
+                                </li>
+                                <li class="mt-2 line-class">
+                                    No disruption to your supply
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="payment-details d-flex justify-content-center">
+            <div class="bill-form mt-5">
+                <div class="card">
+                    <div class="card-header p-3">
+                        <h4>Payment Details</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="bank-details-form">
+                            <div class="input-section w-100">
+                                <label for="Name-of-account-holder" class="mb-2">Name of account holder</label><br>
+                                <input type="text" placeholder="Name of account holder" class="w-100" formControlName="accountHolderName"><br>
+                                <!-- <small>Account holder must be at least 3 characters</small><br> -->
+                                <span class="mt-2">* Please use the name on your bank statements</span>
+                                <div *ngIf="(f.accountHolderName.touched && f.accountHolderName.invalid) || (f.accountHolderName.invalid && f.submitted)">
+                                     <small *ngIf="f.accountHolderName.errors?.required">Account holder name is required.</small><br>
+                                </div>
+                            </div>
+
+                            <div class="input-section w-100 mt-3">
+                                <label for="Name-of-account-holder" class="mb-2">Account Number</label><br>
+                                <input type="number" placeholder="12345678" class="w-100" formControlName="accountNumber">
+                                <!-- <small>Account holder must be at least 3 characters</small><br> -->
+                                <div *ngIf="(f.accountNumber.touched && f.accountNumber.invalid) || (f.accountNumber.invalid && f.submitted)">
+                                    <small *ngIf="f.accountNumber.errors?.required">Account number is required.</small><br>
+                               </div>
+                            </div>
+
+                            <div class="input-section mt-3">
+                                <label for="Name-of-account-holder" class="mb-2">Sort Code</label><br>
+                                <input type="text" placeholder="123456" class="w-100" formControlName="sortCode">
+                                <!-- <small>Account holder must be at least 3 characters</small><br> -->
+                                <div *ngIf="(f.sortCode.touched && f.sortCode.invalid) || (f.sortCode.invalid && f.submitted)">
+                                    <small *ngIf="f.sortCode.errors?.required">Sort code is required.</small><br>
+                               </div>
+                            </div>
+
+                            <div class="direct-debit mt-3">
+                                <div class="col-md-12">      
+                                <img class="direct-debit-logo" src="https://octopus.energy/static/consumer/js/29be94a76e382940f280c336b2a94bb3.svg" alt="">
+                                <div style="display: inline-block;">
+                                 <span>Your payments are protected by the</span><br>
+                                 <a href="">Direct Debit Guarantee</a>
+                                </div>
+                                </div>
+                                <!-- <div class="col-md-6">
+                                <span>Your payments are protected by the</span>
+                                </div> -->
+                            </div>
+
+                            <div class="term-condition">
+                                <input type="checkbox" formControlName="termAndCondition">
+                                <span for="checkbox">I can authorise debits on this account by myself</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            <div class="good-to-know mt-5">
+                <div class="inner-content">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-3">
+                            <i class="fas fa-thumbs-up"></i>
+                            <span>Good to know :</span>
+                        </div>
+                        <div class="col-md-9">
+                            <p>Your direct debit will be set up once you've completed signing up to Octopus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="find-out-more mt-5">
+              <p>
+                 <a href="">Find out more</a>
+                  about the payment methods we accept.
+              </p>
+            </div>
+
+            <div class="payment-date mt-5">
+                <div class="payment-date-innerDiv">
+                    <div class="payment-date-innerContent">
+                        <div *ngIf="!isMobile" class="payment-date-styled">
+                            <p>Payment will be taken on the</p>
+                            <div class="dateStyled">
+                                <select class="paymentDay" name="paymentDay" (change)="onSelectionChange($event)" id="paymentDay">
+                                    <option *ngFor="let paymentdate of dateArray" [value]="paymentdate">{{paymentdate}}</option>
+                                </select>
+                                <div class="dropdownIcon">
+                                <svg id="paymentDay" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41">
+                                    <title>An arrow pointing downwards</title>
+                                    <desc>An arrow pointing downwards</desc>
+                                    <path fill="currentColor" d="M20.5 29L9.7 18.2c-.6-.6-.6-1.5 0-2.1.6-.6 1.5-.6 2.1 0l8.7 8.7 8.7-8.7c.6-.6 1.5-.6 2.1 0 .6.6.6 1.5 0 2.1L20.5 29z"></path>
+                                </svg>
+                                </div>
+                                <label></label>
+                            </div>
+                            <p>of each month</p>
+                        </div>
+                        <div *ngIf="isMobile" class="row">
+                            <p>Payment will be taken on the</p>
+                            <div class="dateStyled">
+                                <select class="paymentDay" name="paymentDay" (change)="onSelectionChange($event)" id="paymentDay">
+                                    <option *ngFor="let paymentdate of dateArray" value="">{{paymentdate}}</option>
+                                </select>
+                                <div class="dropdownIcon">
+                                <svg id="paymentDay" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41">
+                                        <title>An arrow pointing downwards</title>
+                                        <desc>An arrow pointing downwards</desc>
+                                        <path fill="currentColor" d="M20.5 29L9.7 18.2c-.6-.6-.6-1.5 0-2.1.6-.6 1.5-.6 2.1 0l8.7 8.7 8.7-8.7c.6-.6 1.5-.6 2.1 0 .6.6.6 1.5 0 2.1L20.5 29z"></path>
+                                </svg>
+                                </div>
+                                <label></label>
+                            </div>
+                            <p>of each month</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="total-bill w-100 mt-5">
+                <div class="totalBill-innerdiv">
+                    <div class="row">
+                        <div class="totalBill-innerContent ps-5 col-sm-8">
+                            <h4>Your first payment</h4>
+                            <p>20th April</p>
+                        </div>
+                        <div class="totalBill-innerContent2 mt-3 col-sm-4">
+                            <h4>
+                                <span class="" style="font-size: 1.5rem;margin: 0;">£</span>
+                                <span class="" style="font-size: 3rem;margin: 0;">205</span>
+                                <span class="" style="font-size: 1.5rem;margin: 0;">.</span>
+                                <span class="" style="font-size: 1.5rem;margin: 0;">29</span>
+                            </h4>
+                        </div>
+                    </div>
+                    <a href="" class="mb-2 mt-2" style="margin-left: 30px;">What is this payment for?</a>
+                    <div class="row">
+                        <div class="totalBill-innerContent ps-5 col-sm-8">
+                            <h4>Your next payment</h4>
+                            <p>5th May</p>
+                            <p>And then on this day every month.</p>
+                        </div>
+                        <div class="totalBill-innerContent2 mt-3 col-sm-4">
+                            <h4>
+                                <span class="" style="font-size: 1.5rem;margin: 0;">£</span>
+                                <span class="" style="font-size: 3rem;margin: 0;">205</span>
+                                <span class="" style="font-size: 1.5rem;margin: 0;">.</span>
+                                <span class="" style="font-size: 1.5rem;margin: 0;">29</span>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="totalBill-goodToKnow d-flex mt-2 row">
+                        <p style="text-align: center;">
+                            <span>Good to know :</span>
+                            Your monthly costs
+                            are an estimate. We'll suggest adjustments as we get a better
+                            understanding of your energy use, to keep your account on track.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="button m-5"> -->
+                <button (click)="onSubmit()" class="btn w-100 btnClass justify-content-center mt-5 p-3">Continue</button>
+            <!-- </div> -->
+            </div>
+            </form>
+            </div>
+        </div>
+    </div>

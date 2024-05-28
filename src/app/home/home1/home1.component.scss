@@ -1,0 +1,435 @@
+@import "../../../scss/_variables";
+
+.maincontent{
+  //   height: 5rem;
+    background-color:#180048;
+  }
+  .header{
+  padding-top: 6rem;
+  }
+  .h1-class{
+  font-weight:400;
+  }
+  h1{
+      margin: 0;
+      font-size: 3.125rem;
+      font-weight: 700;
+      // line-height: 4.375rem;
+      color: #60F0F8;
+      // line-height: 4.375rem;
+      font-weight: 500;
+  }
+  .form-join__label {
+    margin-top: 1.3rem;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: azure;
+  }
+  .form-join__input {
+    height: 100%;
+    padding-left: 1.6rem;
+    font-size: 1.6rem;
+  }
+  .quote-postcode input {
+    outline: #f050f8;
+    height: 5.2rem;
+    padding-left: 2rem;
+    color: #000;
+    text-align: left;
+    background-color: #ececec;
+    border: 0;
+    border-radius: 0.8rem;
+    box-shadow: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .quote-postcode input:focus {
+    border: .2rem solid #f050f8
+  }
+  // @media (min-width: 576px)
+  // {
+  //   .form-join__button {
+  //     padding-right: 2rem;
+  //     padding-left: 2rem;
+  //     font-size: 2rem;
+  //   }
+  // }
+  .form-join__button{
+    flex: 1 0 0;
+    height: 100%;
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    margin: 0;
+    font-size: 1.6rem;
+    border-radius: 0.8rem;
+  }
+  .quote-postcode button
+  {
+    padding-top: 1.5rem;
+    padding-bottom: 1.2rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #000;
+    text-align: center;
+    background-color: #f050f8;
+    border: 0.2rem solid #f050f8;
+    border-radius: 0.8rem;
+    box-shadow: none;
+    transition: all .15s linear;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+  @media only screen and (max-width: 600px) {
+    // .form-join__input {
+    //   margin-top: 1rem;
+    //   border: 0px;
+    //   height: 100%;
+    //   width: 9rem;
+    //   font-size: 1.6rem;
+    //   border-top-left-radius: 0.8rem;
+    //   border-bottom-left-radius: 0.8rem;
+    //   padding: 1rem;
+    //   }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  //  .form-join__input {
+  //     width: 9rem;
+  //     margin: auto;
+  //     padding: 10px;
+  //     width: 100%;
+  //   }
+}
+
+  // ********************************************************************************
+  
+  .equationElement
+  {
+      display: block;
+      width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  // **************************************************************************************************
+  .award-list-item {
+    display: none;
+    // padding: 0 1.5rem 0;
+    line-height: 3rem;
+    text-align: left
+  }
+  @media (min-width:992px) {
+    .award-list-item {
+      display: block
+    }
+  }
+  
+  .award-list-item--mobile {
+    display: block;
+    padding: .8rem 0 2.4rem
+  }
+  
+  @media (min-width:992px) {
+    .award-list-item--mobile {
+      display: none
+    }
+  }
+  
+  .award-list-item img {
+    margin-right: .8rem
+  }
+  
+  .award-list-item span {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color:azure;
+  }
+  .award-list-item1 .h4, h4 {
+      font-size: 1.4rem;
+      line-height: 3rem;
+      letter-spacing: -.035rem;
+    color:azure;
+  
+  }
+  .award-list-item1 p{
+      font-size: 1.4rem;
+      letter-spacing: -.035rem;
+    color:azure;
+    font-weight: 100;
+    padding-top: 1rem;
+  
+  }
+  // *********************customer serive***************************************************************************
+  .customer-service-section{
+    background-color: #100030;
+  }
+  // .trustpilot-content{
+  
+  // }
+  .trustpilot-star{
+    align-items: center;
+    display:inline-block;
+    width:3.8rem;
+    height:4.8rem;
+    fill:#057f4f;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+    @media (max-width: 768px) {
+    .trustpilot-star{
+      width:3.8rem;height:4.8rem;
+      fill:#057f4f;
+      padding: 3px;
+      margin-left: auto;
+      margin-right: auto;
+    
+    }
+    .trustpilot-logo{
+      width: 141px;
+      height: 158px;
+    }
+    
+    .form-join__input {
+    border: 0px;
+    height: 100%;
+    width: 21rem;
+    font-size: 1.4rem;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    padding: 1rem;
+    }
+    }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .form-join__input {
+        // margin-top: 1rem;
+        width: 60%;
+        
+        }
+        .form-join__button{
+          width:40%;
+        }
+
+        .quote-postcode button{
+          padding-top: 1.4rem;
+          padding-bottom: 1.3rem;
+          padding-left:0; 
+          padding-right: 0;
+        }
+
+        // .quote-postcode input{
+        //   height: auto;
+        // }
+
+  }
+    .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    }
+    .trustpilot-logo{
+    height: 90px;
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    // width: 50%;
+    }
+    .trustpilot__title{
+    color: #FFFFFF;
+    text-align: center;
+    }
+  //   *****************************************secton 3 energy*********************************************************
+  .header p{
+    margin-bottom: 0;
+      font-size: 1.4rem;
+      font-weight: 700;
+      line-height: 2.2rem;
+      color: azure;
+  }
+  .header h2{
+    font-weight: 400;
+      color: #60f0f8;
+    font-size: 3rem;
+  }
+  .header h3{
+    font-size: 2rem;
+      font-weight: 400;
+    color: azure;
+  }
+  .tarrif-content h4{
+    font-weight: 300;
+      color: #60f0f8;
+      font-size: 1.6rem;
+      line-height: 3rem;
+      letter-spacing: -.035rem;
+  }
+  .tarrif-content p{
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    color: azure;
+  }
+  .tarrif-content a{
+    display: block;
+      width: 100%;
+      margin: 3.2rem 0 1.4rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 3.2rem;
+      letter-spacing: 0;
+      color: #100030;
+      text-align: center;
+      text-decoration: none;
+      background-color: #f050f8;
+      border: 0.2rem solid #f050f8;
+      border-radius: 0.8rem;
+      box-shadow: none;
+      transition: .15s linear;
+  }
+  .smart-tariff-banner{
+    text-decoration: none;
+      background: #100030;
+      border-radius: 1.6rem;
+  }
+  .smart-tariff-banner__link {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      overflow: hidden;
+      color: azure;
+      text-decoration: none;
+      background: #100030;
+      border-radius: 1.6rem;
+  }
+  .smart-tariff-banner__img {
+      top: 0;
+      left: 0;
+    padding: 5px 0;
+      // width: 100%;
+      height: 50vh;
+  }
+  .smart-tariff-banner__text {
+      margin-right: 0.8rem;
+      font-size: 1.8rem;
+    padding-left: 6rem;
+  }
+  // ************************************************************************************************
+  
+  .switching-contentdiv{
+    background-color: #100030;
+  }
+  .switching-content p{
+    width: 80%;
+      margin: 0 auto;
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-align: center;
+    color: azure;
+  }
+  .wider-community-div{
+    background-color: #180048;
+  }
+  .align-center—image {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .logo-switch-guarantee {
+      width: 12rem;
+      margin-top: 1.6rem;
+      margin-bottom: 2.4rem;
+  }
+  .switch-guarantee--text {
+      font-size: 1.3rem;
+    color: azure;
+    text-align: center;
+  }
+  .switch-guarantee--text a{
+      font-size: 1.3rem;
+    color: azure;
+    text-align: center;
+    font-weight: 500;
+      color: #60f0f8;
+      text-decoration: underline;
+  }
+  .Guarantee-img-div p{
+    margin-top: 0;
+      margin-bottom: 0rem;
+  }
+  // **************************************************************************************************
+  .card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    // height: 100%;
+    /* padding: 2.4rem 1.6rem; */
+    color: #100030;
+    background-color: azure;
+    border: 0.1rem solid #180048;
+    border-radius: 0.4rem;
+    box-shadow: inset 0 0.2rem 0.4rem 0.2rem rgba(24,0,72,.6);
+}
+  .card__hero {
+      display: inline-block;
+      margin-top: 1.6rem;
+      font-size: 4.1rem;
+      font-weight: 400;
+      line-height: 5rem;
+      letter-spacing: -.32rem;
+  }
+  .energy-crisis-content p{
+    margin: 0 0 1.6rem;
+      font-size: 1.3rem;
+      // line-height: 2.7rem;
+  }
+  .find-button{
+      text-decoration: none;
+      padding: 10px;
+      // margin: 10px;
+      font-size: 1.6rem;
+      color: #000;
+      background: #60f0f8;
+      border-color: #60f0f8;
+      box-shadow: 0 0.2rem 0.4rem 0.2rem rgba(24,0,72,.24);
+      border-radius: 0.8rem;
+      box-shadow: none;
+      transition: all .15s linear;
+      text-align: center;
+  }
+  .button-find{
+    text-decoration: none;
+    padding: 10px;
+    // margin: 10px;
+    font-size: 1.6rem;
+    color: #000;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    box-shadow: 0 0.2rem 0.4rem 0.2rem rgba(24,0,72,.24);
+    border-radius: 0.8rem;
+    box-shadow: none;
+    transition: all .15s linear;
+    text-align: center;
+
+  }
+  .card--news {
+    color: azure;
+    background-color: #6e22ec;
+    box-shadow: inset 0 0.2rem 0.4rem 0.3rem rgba(0,0,0,.5);
+}
+.featuredby-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  background-color: #040817;
+}

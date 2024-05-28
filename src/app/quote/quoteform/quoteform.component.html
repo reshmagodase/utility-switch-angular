@@ -1,0 +1,329 @@
+<div class="container-fluid maincontent">
+    <div
+        class="container col-10 offset-1 col-lg-8 offset-lg-2 div-wrapper d-flex justify-content-center align-items-center">
+        <form [formGroup]="quoteform" class="quoteform" autocomplete="off">
+            <div class="formtext">
+                <h1 style="padding: 0;">Let's see how much you could save...</h1>
+            </div>
+            <div class="section">
+                <div class="questag">
+                    <p>Question 1 of 6</p>
+                    <h3>What's your postcode?</h3>
+                    <div class="group">
+                        <input type="text" formControlName="postCode" name="postcode"/>
+                        <label>Postcode</label>
+                        <div *ngIf="(f.postCode.touched && f.postCode.invalid) || (f.postCode.invalid && f.submitted)">
+                            <small class="error" *ngIf="f.postCode.errors?.required">Postcode is required.</small>
+                            <small class="error" *ngIf="f.postCode.errors?.pattern">Invalid postcode.</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="questag">
+                    <div class="select">
+                        <p>Question 2 of 6</p>
+                        <h3>What's your location?</h3>
+                        <p>
+                            <span>Select your address</span>
+                        </p>
+                        <select class="select-text" (change)="onChange($event)" formControlName="supplyAddress">
+                            <option value="">--Select--</option>
+                            <ng-container *ngIf="switchType == 'gas';else viewElectricitySupplyAddress">
+                                <option *ngFor="let address of addresses"
+                                    value='{{address.AddressAsLine + "AAA" + address.MPRN}}'>
+                                    {{address.AddressAsLine}}
+                                </option>
+                            </ng-container>
+
+                            <ng-template #viewElectricitySupplyAddress>
+                                <option *ngFor="let address of addresses"
+                                    value='{{address.AddressAsLine + "AAA" + address.MPANCore + "AAA" + address.profileclass + address.metertimeswitchclass + address.linelossfactor}}'>
+                                    {{address.AddressAsLine}}
+                                </option>
+                            </ng-template>
+                        </select>
+                        <div
+                            *ngIf="(f.supplyAddress.touched && f.supplyAddress.invalid) || (submitted && f.supplyAddress?.errors)">
+                            <small class="text-danger" *ngIf="f.supplyAddress.errors?.required">Address is required.</small><br>
+                        </div>
+                        <div [hidden]="MPANDiv">
+                            <div class="d-flex justify-content-center mt-2">
+                                <p style="color: #FFFFFF;">If your Supply Address is not listed, please call us at
+                                    &nbsp;&nbsp;<a>0808 1788 170.</a></p>
+                            </div>
+                            <div class="openPopup d-flex mt-3">
+                                <p class=" " color="white">{{switchType=="electricity" ? "MPAN" :
+                                    "MPRN"}}&nbsp;&nbsp;&nbsp;</p>
+                                <p class="" color="white">{{switchType=="electricity" ? MPANBottomLineNo :
+                                    MPRNNo}}&nbsp;&nbsp;</p>
+                                <p class="" color="white">&nbsp;&nbsp;
+                                    <a *ngIf="switchType=='electricity'" data-bs-toggle="modal"
+                                        data-bs-target="#mpanImagePopup">
+                                        Is this your {{switchType=="electricity" ? "MPAN" : "MPRN"}} number ?
+                                    </a>
+                                    <a class="pointer" *ngIf="switchType =='gas'" data-bs-toggle="modal"
+                                        data-bs-target="#mprnImagePopup">
+                                        Is this your {{switchType=="gas" ? "MPRN" : "MPAN"}} number?
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <span class="select-highlight"></span>
+                        <span class="select-bar"></span>
+                        <label class="select-label">Select your address</label>
+                    </div>
+                </div>
+
+                <div class="questag">
+                    <p>Question 3 of 6</p>
+                    <h3>What energy do you need?</h3>
+                    <p>
+                        <span>Choose your energy</span>
+                    </p>
+                    <div class="energybtn">
+                        <button type="button" [ngClass]="switchType=='electricity' ? 'energyselect' : ''"
+                            (click)="energyTypeChanged('electricity')" data-value="false"
+                            class="btnelectricity">electricity</button>
+                        <button type="button" [ngClass]="switchType=='gas' ? 'energyselect' : ''"
+                            (click)="energyTypeChanged('gas')" data-value="true" class="btngas">gas</button>
+                    </div>
+                </div>
+                <!-- ****************************************************************************************** -->
+                <div class="questag">
+                    <p>Question 4 of 6</p>
+                    <h3>What type of meter do you have?</h3>
+                    <p>Hint: If you're not sure, choose standard. <a>Got a prepayment meter?</a></p>
+                    <p>
+                        <span>Choose your energy</span>
+                    </p>
+                    <div class="metertypebtn">
+                        <button type="button"
+                            [ngClass]="selectedmetertype=='standaredmetertype' ? 'metertypeselect' : ''"
+                            (click)="meterTypeChanged('standaredmetertype')" class="standaredbtntype">standard</button>
+                        <button type="button" [ngClass]="selectedmetertype=='economymetertype' ? 'metertypeselect' : ''"
+                            (click)="meterTypeChanged('economymetertype')" class="economybtntype">Economy 7</button>
+                        <button type="button" [ngClass]="selectedmetertype=='smartmetertype' ? 'metertypeselect' : ''"
+                            (click)="smartmeterTypeChanged('smartmetertype')" class="smartbtntype">smart</button>
+                    </div><br>
+                    <!-- **********************************************************    -->
+                    <div class="maindivsmartbtn" *ngIf="showsmartbtndiv">
+                        <h3>Will my smart meter stay smart?</h3>
+                        <div class="innercontentsmartbtn">
+                            <p style="padding-bottom: 10px;">We can connect to any SMETS2 smart meter and some SMETS1
+                                smart meters (those made by the brand SecureTM). We will automatically try to connect
+                                after you've switched but may still ask you to send your first set of meter readings
+                                manually.</p>
+                            <p style="padding-bottom: 10px;">
+                                If we are unable to connect to your SMETS1 meter, it will become 'dumb' and work like a
+                                normal meter so you'll need to give us manual meter readings. Across the industry,
+                                SMETS1 meters are in the process of being upgraded to stay smart when you switch
+                                supplier. We will be in contact to let you know when we're making your meter smart
+                                again.
+                            </p>
+                            <p style="padding-bottom: 10px;">Got a smart prepayment meter?</p>
+                            <p style="padding-bottom: 10px;">You must get in touch with us to help you switch safely.
+                                Give us some information and we'll get back to you as soon as we can.</p><br>
+                            <p>Good to know: We collect your smart meter data half hourly but you can change this any
+                                time in your online account.</p>
+                        </div>
+                    </div>
+                    <!-- ********************************************************************************************* -->
+                </div>
+
+                <div class="questag">
+                    <p>Question 5 of 6</p>
+                    <h3>How much energy do you use?</h3>
+                    <p>Talking ballpark figures here.</p><br>
+                    <!-- <div class="bg-full"> -->
+                    <div class="btn-group" role="group" aria-label="Basic outlined example">
+                        <button type="button" [ngClass]="energyconsume=='energylow' ? 'energyconsumeselect' : ''"
+                            (click)="energyConsumeTypeChanged('energylow')" class="btnenergytypelow">low</button>
+                        <button type="button" [ngClass]="energyconsume=='energymedium' ? 'energyconsumeselect' : ''"
+                            (click)="energyConsumeTypeChanged('energymedium')"
+                            class="btnenergytypemedium">medium</button>
+                        <button type="button" [ngClass]="energyconsume=='energyhigh' ? 'energyconsumeselect' : ''"
+                            (click)="energyConsumeTypeChanged('energyhigh')" class="btnenergytypehigh">high</button>
+                        <button type="button" [ngClass]="energyconsume=='energyactual' ? 'energyconsumeselect' : ''"
+                            (click)="energyConsumeTypeChanged('energyactual')" class="btnactual">actual</button>
+                    </div>
+                    <!-- </div> -->
+                    <div class=" row align-items-center">
+                        <div class="energyselectiondiv col-12 col-sm-6">
+                            <div class="ifselectmedium" *ngIf="energyconsume=='energymedium'">
+                                <h3>Typically, medium consumption homes:</h3>
+                                <ul class="dashed">
+                                    <li>Have around 3 bedrooms</li>
+                                    <li>Have 3-5 occupants</li>
+                                    <li>May have people home during the day</li>
+                                </ul>
+                                <h3>Approximate usage for a low household:</h3>
+                                <p>1800 kWh of electricity</p>
+                                <p>8000 kWh of gas</p>
+                            </div>
+                            <div class="ifselectlowbtn" *ngIf="energyconsume=='energylow'">
+                                <h3>Typically, low consumption homes are:</h3>
+                                <ul class="dashed">
+                                    <li>Smaller (1 or 2 bedrooms)</li>
+                                    <li>Regularly empty on weekdays</li>
+                                    <li>Newer (1970+)</li>
+                                </ul>
+                                <h3>Approximate usage for a low household:</h3>
+                                <p>1800 kWh of electricity</p>
+                                <p>9000 kWh of gas</p>
+                            </div>
+                            <div class="ifselecthighbtn" *ngIf="energyconsume=='energyhigh'">
+                                <h3>Typically, high consumption homes:</h3>
+                                <ul class="dashed">
+                                    <li>Smaller (1 or 2 bedrooms)</li>
+                                    <li>Regularly empty on weekdays</li>
+                                    <li>Newer (1970+)</li>
+                                </ul>
+                                <h3>Approximate usage for a low household:</h3>
+                                <p>1800 kWh of electricity</p>
+                                <p>8000 kWh of gas</p>
+                            </div>
+
+                        </div>
+                        <div class="goodtoknowmaindiv col-md-6"
+                            *ngIf="energyconsume=='energyhigh' || energyconsume== 'energylow' || energyconsume== 'energymedium'">
+                            <h3>Good to know</h3>
+
+                            <div class="goodtoknowinnercontent">
+                                <p>
+                                    These figures are based on national averages. For a more accurate quote, use your
+                                    real usage from
+                                    any bill.</p>
+                                <p> If you don't have one to hand, that's ok - our Octobot will review your estimate
+                                    after a
+                                    few weeks to ensure you're paying a sensible amount.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="actualbtndiv" *ngIf="energyconsume=='energyactual'">
+                        <h3>Usage</h3>
+                        <div class="group">
+                            <input type="number" formControlName="annualkwhfromelectricity"/><span
+                                class="highlight"></span><span class="bar"></span>
+                            <label>Annual kWH from Electricity</label>
+                            <div *ngIf="submitted && f.annualkwhfromelectricity?.errors">
+                                <div class="error" *ngIf="f.annualkwhfromelectricity.errors?.required">Please enter your
+                                    annual electricity consumption in kWh
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group">
+                            <input type="number" formControlName="annualkwhfromgas"/><span
+                                class="highlight"></span><span class="bar"></span>
+                            <label>Annual kWH from gas</label>
+                            <div *ngIf="submitted && f.annualkwhfromgas?.errors">
+                                <div class="error" *ngIf="f.annualkwhfromgas.errors?.required">Please enter your annual
+                                    gas consumption in kWh
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="questag">
+                    <p>Question 6 of 6</p>
+                    <h3>What is your contract date?</h3>
+                    <div class="pt-2">
+                        <div class="input-group date" id="datepicker">
+                            <input type="date" id="date" formControlName="contractEndDate" />
+                        </div>
+                        <div *ngIf="(f.contractEndDate.touched && f.contractEndDate.invalid) || (f.contractEndDate.invalid && f.submitted)">
+                            <small class="text-danger" *ngIf="f.contractEndDate.errors?.required">Contract end date is required.</small><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="questag">
+                    <div class="select">
+                        <p>Question 2 of 6</p>
+                        <h3>What's your supplier?</h3>
+                        <p>
+                            <span>Select your supplier</span>
+                        </p>
+                        <select class="select-text" formControlName="supplierName">
+                            <option value="">--Select--</option>
+                            <option *ngFor="let supplier of supplierData" [value]="supplier.supplierName">{{supplier.supplierName}}</option>
+                         </select>
+                    </div>
+                </div>
+
+                <div class="bg-full1">
+                    <button type="button" class="quotebtn" (click)="addquotedetails();">Quote me</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<!-- 
+
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-secondary active">
+      <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+    </label>
+    <label class="btn btn-secondary">
+      <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+    </label>
+    <label class="btn btn-secondary">
+      <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+    </label>
+</div> -->
+
+<div class="modal fade" id="mpanImagePopup" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content p-2">
+            <div class="modal-header me-2">
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+            </div>
+            <div class="modal-body">
+                <p>Your electricity MPAN (Meter Point Administration Number) is the unique identifying electricity
+                    number for your property.
+                    Your MPAN is sometimes referred to as a S Number. It is unique to your property and does not change
+                    if
+                    you change supplier.
+                    <!-- <img src="assets/images/MPAN_Format.jpg" style="border: 3px solid black;border-radius: 10px" width="100%"> -->
+                </p>
+                <div class="mt-3">
+                    <img src="assets/images/MPAN_Format.jpg" style="border: 3px solid black;border-radius: 10px"
+                        width="100%">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="mprnImagePopup" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content p-2">
+            <div class="modal-header me-4">
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+            </div>
+            <div class="modal-body">
+                <p>Your gas MPRN (Meter Point Reference Number) is the unique identifying gas number for your property.
+                    Your
+                    MPRN is sometimes referred to as a M Number. It is unique to your property and does not change if
+                    you change
+                    supplier.
+                </p>
+                <div class="mt-3">
+                    <img src="assets/images/mprn.png" width="100%">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

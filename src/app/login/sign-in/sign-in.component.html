@@ -1,0 +1,70 @@
+<div class="maincontent">
+  <div class="container">
+      <div class="content">
+        <div class="details">
+          <h1>Sign in to your account</h1>
+        </div>
+        <form [formGroup]="loginform" autocomplete="off">
+          <div class="row" *ngIf="errordiv">
+            <div class="group col-md-12">
+                <input type="hidden" value=""/>
+                <div>
+                  <div style="text-align: start;" class="error">Oops! Some of the data you submitted was invalid. Please correct the error below and resubmit.
+                  </div>
+                  <div style="text-align: start;" class="error">We couldn't sign you in with those details - one of them must be wrong.
+                  </div>
+              </div>
+            </div>
+        </div>
+          <div class="row">
+            <div class="group col-md-12">
+                <input type="text" formControlName="email" name="email" required="required"/>
+                <label>Email address</label>
+                <div *ngIf="(f.email.touched && f.email.invalid) || (f.email.invalid && submitted)">
+                    <div style="text-align: start;" class="error" *ngIf="f.email.errors?.required">Please enter a Email Id
+                    </div>
+                    <div style="text-align: start;" class="error" *ngIf="f.email.errors?.pattern">Please enter a
+                        valid email address
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="group col-md-12">
+              <input  [type]="show ? 'text' : 'password'"  formControlName="password" name="password" required="required" />
+              <!-- <i class="far fa-eye" id="togglePassword"></i> -->
+              <button *ngIf="show==false" class="reveal-button" type="button" (click)="changePasswordType();"></button>
+              <button *ngIf="show==true" class="reveal-button is-active" type="button" (click)="changePasswordType();"></button>
+              <label>Password</label>
+              <div *ngIf="(f.password.touched && f.password.invalid) || (f.password.invalid && submitted)">
+                  <div style="text-align: start;" class="error" *ngIf="f.password.errors?.required">Please enter a
+                      Password
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="forgotpassword-text col-md-12">
+            <a style="color: #60f0eb;" [routerLink]="['../login/forgot-password']">I've forgotten my password</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="bg-full1 col-md-12">
+            <button type="button" class="quotebtn" (click)="addlogindetails();">Sign in</button>
+          </div>
+        </div>
+      </form>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="accounttext">
+            <h5>Don't have an account yet?</h5>
+            <p>Set your account password first.</p>
+            <a (click)="setuppassword();" style="color: #60f0eb;">Set up my online account</a>
+          </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+

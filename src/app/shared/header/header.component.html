@@ -1,0 +1,94 @@
+<nav class="container-fluid navbar navbar-expand-lg">
+  <div class="container">
+    <button class="global-header__menu-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+      aria-controls="offcanvasTop"><img src="assets/icons/icon-menu.870649faf989.svg" alt=""
+        class="svg global-header__menu-icon" />
+      <span class="global-header__menu-copy">Menu</span></button>
+
+    <div class="global-header__logo" style="text-align: center;">
+      <a routerLink="/home" class="global-header__logo-link" tabindex="0" aria-label="Home">
+        <!-- <span class="hidden" style="display: none;">Home</span> -->
+        <img src="assets/images/Utilityaid_New.png" alt="" class="global-header__logo-img">
+      </a>
+    </div>
+
+    <div class="global-header__account" *ngIf="loginstatus !='true'">
+      <a class="global-header__login" tabindex="0" aria-label="Log in to my account" (click)="signin();">
+        <span>Account</span>
+        <img class="svg global-header__login-icon" src="assets/icons/icon-login.0b1c8c0f5bc5.svg"
+          alt="An icon representing a human">
+      </a>
+    </div>
+    <!-- *********************************************************************************************************** -->
+    <div class="global-header__account" *ngIf="loginstatus=='true'">
+      <div class="nav-item dropdown">
+        <a class="" href="#" data-bs-toggle="dropdown" style="text-decoration: none; padding-right: 10px;"><span style="color: azure; text-decoration: none;">Account</span>
+          <img class="svg global-header__login-icon" src="assets/icons/icon-login.0b1c8c0f5bc5.svg"
+          alt="An icon representing a human">
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+          <li class="dropdown-header">
+            <h6>abcd</h6>
+            <span>{{emailid}}</span>
+         </li>
+           <li style="color: azure;">
+              <hr class="dropdown-divider" >
+           </li>
+           <li> <a class="dropdown-item d-flex align-items-center" routerLink="/user-profile"> <i class="bi bi-person" style="padding-right: 5px;"></i> <span>My Profile</span> </a></li>
+           <li>
+              <hr class="dropdown-divider">
+           </li>
+           <li> <a class="dropdown-item d-flex align-items-center" routerLink="/user-profile"> <i class="bi bi-gear"  style="padding-right: 5px;"></i> <span>Account Settings</span> </a></li>
+           <li>
+              <hr class="dropdown-divider">
+           </li>
+           <li> <a class="dropdown-item d-flex align-items-center" routerLink="../login/"> <i class="bi bi-box-arrow-right"  style="padding-right: 5px;"></i> <span>Sign Out</span> </a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- ************************************************************************************************************ -->
+  </div>
+</nav>
+<div class="container-fluid offcanvas offcanvas-top " tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="container offcanvas-header">
+    <button class="global-header__back-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+    aria-controls="offcanvasTop"><img src="assets/icons/icon-menu.870649faf989.svg" alt=""
+      class="svg global-header__menu-icon" />
+    <span class="global-header__menu-copy">Back</span></button>
+    <div class="global-header__logo" style="text-align: center;">
+      <a href="#" class="global-header__logo-link" tabindex="0" aria-label="Home">
+        <span class="hidden" style="display: none;">Home</span>
+        <img src="assets/images/Utilityaid_New.png" alt="" class="global-header__logo-img">
+      </a>
+    </div>
+
+    <div class="global-header__account">
+      <a class="global-header__login" tabindex="0" aria-label="Log in to my account" style="-right: 5px;" (click)="signin();">
+        <span>Account</span>
+        <img class="svg global-header__login-icon" src="assets/icons/icon-login.0b1c8c0f5bc5.svg"
+          alt="An icon representing a human">
+      </a>
+    </div>
+  </div>
+  <div class="container offcanvas-body">
+    <div class="global-header__navigation-primary">
+      <ul aria-label="Primary links">
+              <li><a href="/home" aria-current=page>Home</a></li>
+              <li><a href="" >Quote</a></li>
+              <li><a href="" >Business</a></li>
+      </ul>
+  </div>
+  <div class="global-header__navigation-secondary">
+      <ul aria-label="Secondary links">
+        <li><a href="" >Blog</a></li>
+        <li><a href="" >Help &amp; FAQs</a></li>
+        <li><a href="" >About us</a></li>
+        <li><a href="" >A greener future</a></li>
+        <li><a href="" >Our tariffs</a></li>
+        <li><a href="" >Our policies</a></li>
+        <li><a href="" >Contact us</a></li>
+        <li><a href="" >Careers</a></li>
+      </ul>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,4 @@
+<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" aria-labelledby="title-icon-tick" aria-describedby="desc-icon-tick" role="img">
+    <title id="title-icon-tick">An icon of a rick</title>
+    <desc id="desc-icon-tick">An icon of a rick</desc>
+    <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="9.596" y1="19.5" x2="31.404" y2="19.5"><stop offset="0" stop-color="#0055b9"/><stop offset="1" stop-color="#008edd"/></linearGradient><path fill="url(#a)" d="M27.507 9.348l-10.31 12.827-4.066-4.065-3.535 3.535 8.007 8.007L31.404 12.48z"/></svg>

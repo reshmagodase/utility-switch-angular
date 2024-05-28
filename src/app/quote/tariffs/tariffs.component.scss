@@ -1,0 +1,389 @@
+@import "../../../scss/_variables";
+
+.maincontent{
+  background-color:$header-background-color;
+  color: #FFFFFF;
+  width: 100%;
+}
+.content{
+    text-align: center;
+    align-items: center;
+}
+.content h3{
+    color:#FFFFFF;
+    // margin: 2rem 0 1.6rem;
+    font-size: 2rem;
+    line-height: 3.6rem;
+    letter-spacing: -.035rem;
+    // text-align: center;
+    margin-bottom: 2rem;
+}
+.content p{
+    // text-align: center;
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+}
+strong {
+    font-weight: 400;
+}
+.energypricebtn{
+    padding: 0;
+    border: none;
+    background: none;
+}
+.energypricebtn {
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(96, 240, 248);
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: 0px;
+    font-size: 1.3rem;
+
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #60f0f8;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    top: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #60f0f8
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #60f0f8
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.switchcontent label{
+    font-size: 1rem;
+    margin: 14px;
+}
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  row {
+    width: 100%;
+  }
+  
+  .flex-item {
+    background: #180048;
+    padding: 5px;
+    width: 300px;
+    height: auto;
+    margin: 2rem;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    border-style: solid;
+    border-radius: 1.6rem;
+    color: rgb(255, 255, 255);
+    border-width: 0.2rem;
+    border-color: rgb(96, 240, 248);
+    // background-color: rgb(24, 0, 72);
+  }
+  .flextcontent{
+    margin-top: 1.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .flexibletext{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    letter-spacing: -.035rem;
+    font-weight: 300;  }
+  .octopustext{
+    margin: 2rem 0 1.6rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    letter-spacing: -.035rem;
+    font-weight: 500;
+  }
+  .infobtn{
+    align-items: center;
+  }
+  .tarrifinfobtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 3rem;
+    margin: 0.3rem 0px 3.3rem;
+    font-size: 1.3rem;
+   
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: rgba(98, 54, 255, 0.2);
+    border: 0.1rem solid rgb(98, 54, 255);
+    border-radius: 1.2rem;
+
+  }
+  .pricesrices{
+    display: flex;
+    width: 100%;
+    line-height: normal;
+  }
+  .flextcontent p{
+    font-weight: 400;
+    line-height: normal;
+    font-size: 1rem;
+    padding-left: 10px;
+  }
+  .quotebtn{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    background: rgb(240, 80, 248);
+    border: 0.2rem solid rgb(240, 80, 248);
+    border-radius: 0.8rem;
+    outline: none;
+    box-shadow: rgba(16, 0, 48, 0.24) 0px 0.2rem 0.4rem 0.2rem;
+    font-size: 1.2rem;
+    transition: background-color 0.2s ease-out 0s, border-color 0.2s ease-out 0s;
+    line-height: normal;
+    margin-bottom: 20px;
+ }
+ .fa-angle-left{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1.9rem;
+    color: rgb(240, 255, 255);
+    transition: all 0.15s ease-out 0s;
+    margin-right: 10px;
+ }
+ .gobackbtn{
+    font-weight: 600;
+    background: none;
+    border: none;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: rgb(240, 255, 255);
+    transition: all 0.15s ease-out 0s;
+ }
+ .gobackbtn:hover
+{
+  // background: #170044;
+  border-color: #f050f8;
+}
+.gobackbtn:hover:focus-visible
+ {
+  background: #170044;
+  border-color: #f050f8;
+}
+// .innovativetarrifbtn{
+//     position: relative;
+//     overflow-anchor: none;
+//     background-image: none;
+//     box-shadow: none;
+//     color: rgb(240, 255, 255);
+//     border-radius: 1.2rem;
+//     padding: 0px 0.2rem;
+//     background-color: rgb(16, 0, 48);
+//     border: 0.2rem solid rgb(88, 64, 255);
+// }
+.innovativebtn{
+    background-color: rgba(98, 54, 255, 0.2);
+    border: 0.1rem solid rgb(98, 54, 255);
+    border-radius: 1.2rem;
+    color: rgb(240, 255, 255);
+}
+.maindiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    // transition-property: background-color, border-color;
+}
+.hdsh{
+//   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  transition-property: background-color, border-color;
+  border: 0.1rem solid rgb(88, 64, 255);
+  border-radius: 0.5rem;
+}
+.mat-expansion-panel {
+    background: none; 
+    color: rgba(0, 0, 0, 0.87);
+}
+.example-action-buttons {
+    padding-bottom: 20px;
+  }
+  
+  .example-headers-align .mat-expansion-panel-header-title,
+  .example-headers-align .mat-expansion-panel-header-description {
+    flex-basis: 0;
+  }
+  
+  .example-headers-align .mat-expansion-panel-header-description {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .example-headers-align .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  
+  .my-panel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // margin-right: 30rem;
+    color: #FFFFFF;
+
+  }
+  .my-panel button {
+    //   margin: 15px 25px;
+    border: none;
+    background: none;
+    color: #FFFFFF;
+    font-size: 1.44444rem;
+    // text-align: start;
+    }
+    .mat-content {
+        // display: flex;
+        flex: 1;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .mat-expansion-panel-header {
+        transition: all 80ms ease-in-out;
+        transition-property: background-color, border-color;
+        background: 0 0;
+        background-color:$header-background-color;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 24px;
+        border-radius: inherit;
+        // border: 0.1rem solid rgb(88, 64, 255);
+}
+.mat-expansion-indicator::after {
+    border-style: solid;
+    color: white;
+    border-width: 0 2px 2px 0;
+    content: "";
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    vertical-align: middle;
+}
+.collapsecontent p{
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 24px;
+}
+.collapsecontent h3{
+    margin-top: 1rem;
+    text-align: start;
+    color:#FFFFFF;
+    // margin: 2rem 0 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1rem;
+    letter-spacing: -.035rem;
+    // text-align: center;
+}
+.intelligentoptopus{
+    background-color: #180048;
+    padding: 10px;
+    border-radius: 13px;
+    margin-top: 22px;
+
+}
+.cosyocto{
+    background-color: #180048;
+    padding: 10px;
+    border-radius: 13px;
+    margin-top: 22px;
+
+}
+.agileocto{
+    background-color: #180048;
+    padding: 5px 10px;
+    border-radius: 13px;
+    margin-top: 22px;
+
+}
+.energypricebtn1{
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(96, 240, 248);
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: 0px;
+    font-size: 1rem;
+}
+::ng-deep .mat-expansion-indicator::after {
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 0 5px 5px 0;
+    content: "";
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+    vertical-align: middle;
+    margin-top: -16px;
+    margin-left: 18px;
+}
+// ::ng-deep .mat-expansion-panel-header-description, .mat-expansion-indicator::after {
+//     color:white;
+// }

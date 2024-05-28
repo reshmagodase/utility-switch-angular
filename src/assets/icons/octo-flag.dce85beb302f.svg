@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 76 88" style="enable-background:new 0 0 76 88;" xml:space="preserve" aria-hidden="true" role="img">
+<style type="text/css">
+	.octo-flag-0{fill-rule:evenodd;clip-rule:evenodd;fill:#100030;}
+	.octo-flag-1{fill-rule:evenodd;clip-rule:evenodd;fill-opacity:0;}
+	.octo-flag-2{fill:none;stroke:#F050F8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g>
+	<g transform="translate(-682.000000, -969.000000)">
+		<g transform="translate(0.000000, 966.000000)">
+			<g>
+				<g transform="translate(682.000000, 0.000000)">
+					<polygon class="octo-flag-0" points="38,15 64.9,26.1 76,53 0,53 11.1,26.1"/>
+					<g transform="translate(26.000000, 0.000000)">
+						<rect y="0" class="octo-flag-1" width="24" height="24"/>
+						<path class="octo-flag-2" d="M7,20V6"/>
+						<path class="octo-flag-2" d="M7,14c10,0,3-2,12-2l-1.1-2.2c-0.6-1.1-0.6-2.5,0-3.6L19,4c-9,0-2,2-12,2"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

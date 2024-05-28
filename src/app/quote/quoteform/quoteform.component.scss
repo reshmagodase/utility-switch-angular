@@ -1,0 +1,680 @@
+@import "../../../scss/_variables";
+
+.maincontent{
+//   height: 5rem;
+  background-color:$header-background-color;
+//   heigh
+}
+.formcontent{
+    align-items: center;
+    margin: 0;
+}
+.inputtext{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 0.1rem solid rgb(240, 255, 255);
+    border-radius: 0%;
+    color: #FFFFFF;
+    background: 0 0;
+    
+}
+input:focus{
+    outline: none;
+}
+// .btnenergygas:focus{
+// background-color: red;
+// }
+// .form-control:focus {
+//     color: #212529;
+//     /* background-color: #fff; */
+//     // border-color: red;
+//     outline: 0;
+//     box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+// }
+
+.quoteform{
+    width: 90%;
+    // align-items: center
+    padding: 40px 20px;
+}
+.questag a{
+    text-decoration: underline;
+    color: #60f0f8;
+}
+.questag{
+margin-bottom: 4rem;
+}
+.formtext h1{
+    // margin: 3.2rem 0px 0.8rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 3.4rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 20px;
+}
+section{
+    margin-top: 10px;
+}
+.questag p{
+    margin: 0px;
+    // margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: -0.06rem;
+    color: rgb(240, 255, 255);
+}
+.questag h3{
+    // display: flex;
+    // -webkit-box-pack: justify;
+    // justify-content: space-between;
+    // margin: 0px 0px 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    // line-height: 3rem;
+    color: rgb(240, 255, 255);
+
+}
+// .quote-postcode input{width:100%;height:5.2rem;padding-left:2rem;color:#000;text-align:left;background-color:#ececec;border:0;border-radius:.8rem;box-shadow:none}
+// label{
+//     color: #FFFFFF;
+// }
+// .btnenergy{
+//     color: rgb(0, 0, 0);
+//     width: 50%;
+//     margin-top: 1rem;
+//     font-size: 1.3rem;
+//     padding: 13px 86px;
+//     border-radius: 7px;
+   
+// }
+
+
+.btngas{
+    color: #FFFFFF;
+    width: 48%;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    padding: 13px 86px;
+    border-radius: 7px;
+    background: 0 0;
+    border: 2px solid #FFFFFF;
+    margin-right: 1rem;
+}
+.btngas.active, .btngas:active{
+    background-color: rgb(96, 240, 248) ;
+}
+.btngas:focus,.btnelectricity:focus{
+    background-color: rgb(96, 240, 248) ;
+    color: rgb(0, 0, 0);
+}
+.btnelectricity{
+    color: #FFFFFF;
+    width: 50%;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    padding: 13px 86px;
+    border-radius: 7px;
+    background: 0 0;
+    border: 2px solid #FFFFFF;
+
+}
+// **********************************************************************
+.energyselect {
+    background-color: rgb(96, 240, 248) ;
+    color: #000;
+}
+
+.metertypebtn button{
+   
+    width: 17rem;
+    padding: 10px;
+    margin-right: 6px;
+}
+.labelenergy{
+    font-size: 1.3rem;
+    padding:10px 0;
+}
+
+// **********************smartbtndiv*************************************************
+.maindivsmartbtn{
+    width: 99%;
+    background-color: rgb(96, 240, 248) ;
+    border: 1px solid rgb(96, 240, 248);
+    border-radius: 1rem;
+    margin-top: 5px;
+}
+.maindivsmartbtn h3{
+    color: #000;
+    padding: 10px 17px;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+// line-height: 2.7rem;
+}
+.innercontentsmartbtn{
+    background-color: #180048;
+    padding: 1rem;
+    margin: 4px;
+    border: 1px solid #180048;
+    border-bottom-left-radius:1rem;
+    border-bottom-right-radius:1rem;
+
+}
+// .innercontentsmartbtn p{
+//     // line-height: 0%;
+// }
+// ***********************energy consumption*******************************
+.energyselect {
+    background-color: rgb(96, 240, 248) ;
+    color: #000;
+}
+
+.btn-group{
+    // border: 1px solid #FFFFFF;
+    background-color: #100030;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+  }
+//   .btn-group button:hover {
+//     background-color: #60f0f8;
+//   }
+  
+.btnenergytype{
+    border: 2px solid #FFFFFF;
+    width: 26%;
+    background-color: #100030;
+    background: 0 0;
+    padding: 10px;
+    color: #FFFFFF;
+    // border-top-right-radius:8px; 
+    // border-bottom-right-radius:8px; 
+}
+.btnenergytypelow{
+    border: 2px solid #FFFFFF;
+    width: 26%;
+    background-color: #100030;
+    background: 0 0;
+    padding: 10px;
+    color: #FFFFFF;
+    border-top-left-radius:8px; 
+    border-bottom-left-radius:8px; 
+
+}
+.btnenergytypehigh{
+    border: 2px solid #FFFFFF;
+    width: 26%;
+    background-color: #100030;
+    background: 0 0;
+    padding: 10px;
+    color: #FFFFFF;
+    border-top-right-radius:8px; 
+    border-bottom-right-radius:8px; 
+}
+.btnenergytypemedium{
+    border: 2px solid #FFFFFF;
+    width: 26%;
+    background-color: #100030;
+    background: 0 0;
+    padding: 10px;
+    color: #FFFFFF;
+}
+.btnactual{
+    margin-left: 1rem;
+    background-color: #100030;
+    border-top-right-radius:8px; 
+    border-bottom-right-radius:8px; 
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding-right: 110px;
+    border: 2px solid #FFFFFF;
+ }
+ .energyconsumeselect{
+    background-color: rgb(96, 240, 248) ;
+    color: #000;
+ }
+ .goodtoknowmaindiv{
+    // background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 1rem;
+    margin-top: 1.9rem;
+ }
+//  .goodtoknowmaindiv p{
+// background-color: #100030;
+//  }
+ .goodtoknowmaindiv h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    color: #FFFFFF;
+ }
+.goodtoknowinnercontent{
+    background-color: #100030;
+    margin: 10px;
+ }
+ .goodtoknowinnercontent p{
+    padding: 10px;
+    text-align: justify;
+ }
+//  *******************************
+ul.dashed > li {
+    text-indent: -5px;
+    color: #FFFFFF;
+  }
+  .energyselectiondiv{
+    margin-top: 1.9rem;
+  }
+
+// **********************************************************************
+// .btnelectricity:focus{
+//     background-color: rgb(96, 240, 248) ;
+// }
+// .metertypebtn{
+//     width:100%;
+//     display: inline-block;
+//     background: 0 0;
+//     //   border:.2rem solid #FFFFFF;
+//     //   border-radius: $btn-border-radius;
+//     //   transition: all 80ms ease-in-out;
+//     //   transition-property: background-color, border-color;
+//     //     width: 50%;
+//     //     color: rgb(0, 0, 0);
+//     //     width: 33%;
+//     //     margin-top: 1rem;
+//     //     font-size: 1.3rem;
+//     //     padding: 13px 86px;
+//     //     border-radius: 7px;
+//     //     // background-color: rgb(96, 240, 248);
+//     //     display: inline-block;
+// }
+// ***********************************************************************
+// .metertypebtn button
+// {
+//   margin-right: 8px;
+//   background: 0 0;
+//   border:.1rem solid #FFFFFF;
+//   border-radius: $btn-border-radius;
+//   transition: all 80ms ease-in-out;
+//   transition-property: background-color, border-color;
+//   color: #FFFFFF;
+//   margin-top: 1rem;
+//   font-size: 1.3rem;
+//   padding: 13px 86px;
+//   border-radius: 7px;
+//   display: inline-block;
+// }
+.standaredbtntype{
+    margin-right: 8px;
+      background: 0 0;
+      border:.1rem solid #FFFFFF;
+      border-radius: $btn-border-radius;
+      transition: all 80ms ease-in-out;
+      transition-property: background-color, border-color;
+      color: #FFFFFF;
+      margin-top: 1rem;
+      font-size: 1.3rem;
+      padding: 13px 86px;
+      border-radius: 7px;
+      display: inline-block;
+}
+.economybtntype{
+    margin-right: 8px;
+  background: 0 0;
+  border:.1rem solid #FFFFFF;
+  border-radius: $btn-border-radius;
+  transition: all 80ms ease-in-out;
+  transition-property: background-color, border-color;
+  color: #FFFFFF;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  padding: 13px 86px;
+  border-radius: 7px;
+  display: inline-block;
+}
+.smartbtntype{
+    margin-right: 8px;
+      background: 0 0;
+      border:.1rem solid #FFFFFF;
+      border-radius: $btn-border-radius;
+      transition: all 80ms ease-in-out;
+      transition-property: background-color, border-color;
+      color: #FFFFFF;
+      margin-top: 1rem;
+      font-size: 1.3rem;
+      padding: 13px 86px;
+      border-radius: 7px;
+      display: inline-block;
+}
+.standaredbtntype.active, .economybtntype:active,.smartbtntype:active{
+    background-color: rgb(96, 240, 248) ;
+}
+.standaredbtntype:focus,.economybtntype:focus,.smartbtntype:focus{
+    background-color: rgb(96, 240, 248) ;
+    color: rgb(0, 0, 0);
+}
+.metertypeselect{
+    background-color: rgb(96, 240, 248) ;
+    color: #000;
+}
+// *************************************************************************
+
+
+
+input:hover{
+    background: 0 0;
+}
+input{
+    background: 0 0;
+}
+
+.bg-full {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .bg-full:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX( -50%);
+    height: 100%;
+    width: 100vw;
+    background: #180048;
+  }
+  
+  html {
+    overflow-x: hidden;
+  }
+  .colours{
+    width: 100%;
+  }
+  .btn{
+    color: #FFFFFF;
+  }
+ 
+ .quotebtn{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    background: rgb(240, 80, 248);
+    border: 0.2rem solid rgb(240, 80, 248);
+    border-radius: 0.8rem;
+    outline: none;
+    box-shadow: rgba(16, 0, 48, 0.24) 0px 0.2rem 0.4rem 0.2rem;
+    font-size: 1.2rem;
+    transition: background-color 0.2s ease-out 0s, border-color 0.2s ease-out 0s;
+ }
+// ***************************************************************************************************
+
+
+// VARIABLES // ============================== //
+$bg-color: #424242;
+$hl-color: #FFFFFF;
+$muted-color: mix(white, $bg-color, 70%);
+$trans-time: 300ms;
+$width: 320px;
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: $bg-color;
+}
+
+// FORM // ============================== //
+// form {
+//   width: $width;
+//   margin: 45px auto;
+  
+//   h1 {
+//     font-size: 3em;
+//     font-weight: 300;
+//     text-align: center;
+//     color: $hl-color;
+//   }
+//   h5 {
+//     text-align: center;
+//     text-transform: uppercase;
+//     color: $muted-color;
+//   }
+//   hr.sep {
+//     background: $hl-color;
+//     box-shadow: none;
+//     border: none;
+//     height: 2px;
+//     width: 25%;
+//     margin: 0px auto 45px auto;
+//   }
+//   .emoji {
+//     font-size: 1.2em;
+//   }
+// }
+
+.group {
+  position: relative;
+  margin: 45px 0;
+}
+
+// INPUTS // ============================== //
+textarea {
+  resize: none;
+}
+
+input,
+textarea {
+  margin-top: -31px;
+  background: none;
+  color: white;
+  font-size: 18px;
+  padding: 20px 10px 7px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #FFFFFF;
+  &:focus {
+    outline: none;
+  }
+  &:focus ~ label,
+  &:valid ~ label {
+    top: -14px;
+    font-size: 17px;
+    color: #FFFFFF;
+  }
+  &:focus ~ .bar:before {
+    width: $width;
+  }
+}
+
+input[type="password"] {
+  letter-spacing: 0.3em;
+}
+
+label {
+  color: mix(white, $bg-color, 70%);
+  font-size: 20px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: $trans-time ease all;
+}
+
+.bar {
+  position: relative;
+  display: block;
+  width: $width;
+  &:before {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 0px;
+    position: absolute;
+    background: $hl-color;
+    transition: $trans-time ease all;
+    left: 0%;
+  }
+}
+// ***************************************************************************************
+
+@media (max-width: 768px) {
+  .quoteform{
+    width: 143%;
+    // align-items: center
+    padding: 40px 20px;
+}
+// .btngas[_ngcontent-jqf-c7] {
+//   color: #FFFFFF;
+//   width: -365%;
+//   margin-top: 1rem;
+//   font-size: 1.3rem;
+//   padding: 9px 4px;
+//   border-radius: 7px;
+//   background: 0 0;
+//   border: 2px solid #FFFFFF;
+//   margin-right: 1rem;
+// }
+.btnactual {
+  
+  padding-right: 5px;
+  // border: 2px solid #FFFFFF;
+}
+.btngas{
+  padding: 13px 44px;
+  width: auto;
+}
+.btnelectricity{
+  padding: 13px 44px;
+  width: 80%;
+}
+}
+
+.select-text {
+  margin-top: 5px;
+  color: #FFFFFF;
+	position: relative;
+	font-family: inherit;
+	background-color: $header-background-color;
+	width:100%;
+	padding: 10px -1px 10px 0;
+	font-size: 21px;
+	border-radius: 0;
+	border: none;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+/* Remove focus */
+.select-text:focus {
+	outline: none;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+	/* Use custom arrow */
+.select .select-text {
+	appearance: none;
+	-webkit-appearance:none
+}
+
+.select:after {
+	position: absolute;
+	top: 18px;
+	right: 10px;
+	/* Styling the down arrow */
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #FFFFFF;
+	pointer-events: none;
+}
+
+
+/* LABEL ======================================= */
+.select-label {
+  padding-left: 14px;
+	color: mix(white, $bg-color, 70%);
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 0;
+	top: 10px;
+	transition: 0.2s ease all;
+}
+
+/* active state */
+.select-text:focus ~ .select-label, .select-text:valid ~ .select-label {
+	color: #FFFFFF;
+	top: -20px;
+	transition: 0.2s ease all;
+	font-size: 18px;
+}
+
+/* BOTTOM BARS ================================= */
+.select-bar {
+	position: relative;
+	display: block;
+	width: 350px;
+}
+
+// .select-bar:before, .select-bar:after {
+// 	content: '';
+// 	height: 2px;
+// 	// width: 100%;
+// 	bottom: 1px;
+// 	position: absolute;
+// 	background: #FFFFFF;
+// 	transition: 0.2s ease all;
+// }
+
+.select-bar:before {
+	left: 50%;
+}
+
+.select-bar:after {
+	right: 50%;
+}
+
+/* active state */
+.select-text:focus ~ .select-bar:before, .select-text:focus ~ .select-bar:after {
+	width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.select-highlight {
+	position: absolute;
+	height: 60%;
+	width: 100px;
+	top: 25%;
+	left: 0;
+	pointer-events: none;
+	opacity: 0.5;
+}
+select {
+  font-family:
+    'Roboto','Helvetica','Arial',sans-serif;
+	position: relative;
+	width: 100%;
+  margin-top: 22px;
+}
+
+a:hover {
+  cursor:pointer;
+ }
+
+ ::-webkit-calendar-picker-indicator {
+  filter: invert(100%);
+  cursor: pointer;
+}
+

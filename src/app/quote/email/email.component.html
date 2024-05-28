@@ -1,0 +1,35 @@
+<div class="container-fluid maincontent">
+    <div class="container div-wrapper d-flex justify-content-center align-items-center">      
+        <div class="emailquotemaindiv">
+            <a routerLink="/tariffs" aria-current=page>
+                <h3>View your Quote here</h3>
+            </a>
+            
+            <img src="assets/images/svgimg.png" alt="" class="svgimg">
+            <div class="emailquoteform">
+                <h1>Send a copy to your inbox</h1>
+                <p>Email it to yourself or someone else, and get back to your quote at any time</p>
+                <form [formGroup]="emailquoteform" class="emailform">
+                     <div class="group">
+                            <input type="text" formControlName="email" name="email" required="required" [ngClass]="{ 'is-invalid': submitted && f.email.errors}"/>
+                            <label>Email Address</label>
+                            <div *ngIf="submitted && f.email.errors">
+                                <div style="text-align: start;" class="error" *ngIf="f.email.errors.required">Please enter a valid email address
+                                </div>
+                                <div style="text-align: start;" class="error" *ngIf="f.email.errors.pattern">Please enter a valid email address
+                                </div>
+                            </div>
+                          </div><br>
+                          <div class="bg-full1">
+                            <button type="button" class="quotebtn" (click)="addemailaddress();">Yes, please</button>
+                    </div>
+                </form>
+            </div>
+            <div class="">
+                <a routerLink="/quote/tariffs">
+                    <h3>No thanks, just take me to my quote</h3>
+                </a>
+            </div>
+    </div>
+</div>
+

@@ -1,0 +1,858 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 320 270" style="enable-background:new 0 0 320 270;" xml:space="preserve" role="img" aria-labelledby="title-switching-point-awards">
+<title id="title-switching-point-awards">A happy globe holding an award</title>
+<style type="text/css">
+	.sp-awards-0{fill:#180048;}
+	.sp-awards-1{opacity:0.2;fill:#6018C3;enable-background:new    ;}
+	.sp-awards-2{fill:#F0FFFF;}
+	.sp-awards-3{fill:#1ED6A6;}
+	.sp-awards-4{fill:#BB00D4;}
+	.sp-awards-5{fill:#F484FA;}
+	.sp-awards-6{fill:#D50505;}
+	.sp-awards-7{opacity:0.2;fill:#100030;}
+	.sp-awards-8{fill:#F050F8;}
+	.sp-awards-9{fill:#FFA26B;}
+	.sp-awards-10{fill:#057C4D;}
+	.sp-awards-11{fill:#211650;}
+	.sp-awards-12{opacity:0.52;}
+	.sp-awards-13{fill:#F7BE4F;}
+	.sp-awards-14{fill:#6018C8;}
+	.sp-awards-15{fill:#F09D00;}
+	.sp-awards-16{fill:#FFD84F;}
+	.sp-awards-17{fill:#0A1999;}
+	.sp-awards-18{fill:#5840FF;}
+	.sp-awards-19{fill:none;}
+	.sp-awards-20{fill:#18F0B8;}
+	.sp-awards-21{fill:#FF48D8;}
+	.sp-awards-22{fill:#FFFFFF;}
+	.sp-awards-23{fill:url(#SVGID_1_);}
+	.sp-awards-24{fill:url(#SVGID_00000153663539081909544550000007764272016151873213_);}
+	.sp-awards-25{fill:#100030;}
+	.sp-awards-26{opacity:0.3;}
+	.sp-awards-27{fill:url(#SVGID_00000008109751388691677110000007160663495184155266_);}
+	.sp-awards-28{fill:url(#SVGID_00000051349774029616854250000015904694325389132928_);}
+	.sp-awards-29{fill:#B391E5;}
+	.sp-awards-30{fill:none;stroke:#180048;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-31{fill:#00C8F8;}
+	.sp-awards-32{fill:none;stroke:#180048;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-33{fill:#EEBCF7;}
+	.sp-awards-34{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-35{fill:url(#SVGID_00000000215045963337036980000008466270899467198380_);}
+	.sp-awards-36{fill:url(#SVGID_00000137815438834441604020000001748895922704646305_);}
+	.sp-awards-37{fill:#15F0B7;}
+	.sp-awards-38{fill:#12C093;}
+	.sp-awards-39{fill:#91F8DD;}
+	.sp-awards-40{fill:#F8C050;}
+	.sp-awards-41{fill:#FCEAC7;}
+	.sp-awards-42{fill:none;stroke:#180048;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-43{fill:url(#SVGID_00000083068365749978310820000016054875662896002432_);}
+	.sp-awards-44{fill:url(#SVGID_00000002354214161666846670000011390251539974171058_);}
+	.sp-awards-45{stroke:#100030;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;}
+	.sp-awards-46{opacity:0.49;fill:#F050F8;}
+	.sp-awards-47{fill:none;stroke:#F050F8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-48{fill:#0C7358;}
+	.sp-awards-49{fill:#9BFFFF;}
+	.sp-awards-50{opacity:0.5;fill:#60F0F8;}
+	.sp-awards-51{fill:#0F0030;}
+	.sp-awards-52{fill:#C0CCCC;}
+	.sp-awards-53{fill:#13C093;}
+	.sp-awards-54{stroke:#100030;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.sp-awards-55{fill:url(#SVGID_00000034801526486746720400000002086206865389019266_);}
+	.sp-awards-56{fill:url(#SVGID_00000068679660000500396500000017575542145020801411_);}
+	.sp-awards-57{fill:url(#SVGID_00000103960947748000072460000012128180534478217089_);}
+	.sp-awards-58{fill:url(#SVGID_00000183232133022309678580000017353628517619462023_);}
+	.sp-awards-59{fill:#77321C;}
+	.sp-awards-60{fill:#C69A40;}
+	.sp-awards-61{fill:#B16951;}
+	.sp-awards-62{fill:#F050F0;}
+	.sp-awards-63{fill:#B43CB4;}
+	.sp-awards-64{fill:#E2908A;}
+	.sp-awards-65{fill:#F7CFC0;}
+	.sp-awards-66{fill:none;stroke:#F8C050;stroke-width:0.25;stroke-miterlimit:10;}
+	.sp-awards-67{fill:#F8ABFC;}
+	.sp-awards-68{fill:none;stroke:#100030;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-69{fill:#60F0F8;}
+	.sp-awards-70{fill:#FFFFFF;stroke:#100030;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-71{fill:#FFFFFF;stroke:#100030;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-72{fill:none;stroke:#100030;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-73{opacity:0.29;fill:#FFFFFF;}
+	.sp-awards-74{fill:none;stroke:#C0CCCC;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-75{fill:#FFFFFF;stroke:#180048;stroke-miterlimit:10;}
+	.sp-awards-76{fill:none;stroke:#F050F8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-77{fill:none;stroke:#180048;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-78{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-79{fill:#C040C6;}
+	.sp-awards-80{opacity:0.22;fill:#EEBCF7;}
+	.sp-awards-81{fill:none;stroke:#EEBCF7;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-82{fill:none;stroke:#A3F9E3;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-83{fill:url(#SVGID_00000113340339074596799690000005048388314239948442_);}
+	.sp-awards-84{fill:url(#SVGID_00000108996955922059706100000003823239824541044366_);}
+	.sp-awards-85{fill:none;stroke:#6018C8;stroke-miterlimit:10;}
+	.sp-awards-86{fill:#4D13A0;}
+	.sp-awards-87{fill:#BFA3E8;}
+	.sp-awards-88{opacity:0.22;fill:#FFFFFF;}
+	.sp-awards-89{fill:url(#SVGID_00000107579614898398578990000002307610343816632249_);}
+	.sp-awards-90{opacity:0.1;}
+	.sp-awards-91{fill:#FF74E7;}
+	.sp-awards-92{opacity:0.29;fill:#F8ABFC;}
+	.sp-awards-93{fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-94{fill:url(#SVGID_00000002386131565905126260000005869224863053619855_);}
+	.sp-awards-95{fill:url(#SVGID_00000106831442504359284840000015987499585309159304_);}
+	.sp-awards-96{fill:#FF1BB7;}
+	.sp-awards-97{fill:url(#SVGID_00000142854686635680400090000014063013279065229699_);}
+	.sp-awards-98{fill:url(#SVGID_00000054262936611184420610000002074516064492683667_);}
+	.sp-awards-99{fill:url(#SVGID_00000124846584607768706780000009976911840531660695_);}
+	.sp-awards-100{stroke:#100030;stroke-linecap:round;stroke-miterlimit:10;}
+	.sp-awards-101{fill:#0A604A;}
+	.sp-awards-102{fill:#A3F9E3;}
+	.sp-awards-103{fill:url(#SVGID_00000036951442502051901230000009323333434873051029_);}
+	.sp-awards-104{fill:url(#SVGID_00000026153369891487458440000013575869800472779408_);}
+	.sp-awards-105{fill:url(#SVGID_00000008871157161795310500000014306194360851209615_);}
+	.sp-awards-106{fill:url(#SVGID_00000027590132116420720860000005303248724805351084_);}
+	.sp-awards-107{fill:url(#SVGID_00000023245870079527876920000001854976804740777611_);}
+	.sp-awards-108{fill:url(#SVGID_00000175296149187260982310000015395879677854058423_);}
+	.sp-awards-109{fill:#F2FCFF;}
+	.sp-awards-110{opacity:0.1;fill:#606060;}
+	.sp-awards-111{fill:url(#SVGID_00000090974453833788475660000014525066344127067023_);}
+	.sp-awards-112{fill:url(#SVGID_00000132089838505235273390000007587264846334995587_);}
+	.sp-awards-113{fill:#5BF8FF;}
+	.sp-awards-114{fill:#BF40C6;}
+	.sp-awards-115{fill:#47149D;}
+	.sp-awards-116{fill:#1ADDFF;}
+	.sp-awards-117{fill:#EAE3D6;}
+	.sp-awards-118{fill:#FFC44D;}
+	.sp-awards-119{fill:url(#SVGID_00000031208411879589889790000012124104058715306921_);}
+	.sp-awards-120{fill:url(#SVGID_00000086676590913763449350000017418876606740557960_);}
+	.sp-awards-121{fill:none;stroke:#180048;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-122{fill:url(#SVGID_00000016777206841420370620000007722888404671716490_);}
+	.sp-awards-123{fill:url(#SVGID_00000105412469358627454550000005718339517593739709_);}
+	.sp-awards-124{fill:url(#SVGID_00000103957228441990684290000006291524825200053156_);}
+	.sp-awards-125{fill:url(#SVGID_00000114059269491206656520000018088769262181539978_);}
+	.sp-awards-126{fill:none;stroke:#9BFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-127{opacity:0.49;fill:#91F8DD;}
+	.sp-awards-128{fill:none;stroke:#18F0B8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-129{fill:url(#SVGID_00000031205987966870255180000016334973440976376471_);}
+	.sp-awards-130{fill:url(#SVGID_00000054265761573550843110000010330147383136225684_);}
+	.sp-awards-131{fill:url(#SVGID_00000137845501771195663170000013758792125032654003_);}
+	.sp-awards-132{fill:url(#SVGID_00000105393183832244801420000018149382506283639172_);}
+	.sp-awards-133{opacity:0.27;fill:#FFFFFF;}
+	.sp-awards-134{fill:url(#SVGID_00000011029417063497854090000017634567498620772521_);}
+	.sp-awards-135{fill:url(#SVGID_00000135648477481926044330000000018894076232258492_);}
+	.sp-awards-136{fill:url(#SVGID_00000134225822297326003220000012368402331896289706_);}
+	.sp-awards-137{fill:url(#SVGID_00000033359559173518029620000006306620592325719971_);}
+	.sp-awards-138{fill:#B7C9D2;}
+	.sp-awards-139{fill:#89979E;}
+	.sp-awards-140{fill:#D4DFE4;}
+	.sp-awards-141{opacity:0.34;fill:#FFFEFD;}
+	.sp-awards-142{fill:#E30613;}
+	.sp-awards-143{fill:url(#SVGID_00000036960892040047027870000005904575080872074885_);}
+	.sp-awards-144{fill:url(#SVGID_00000096757549003136065240000012773002729205000587_);}
+	.sp-awards-145{fill:url(#SVGID_00000060003801566069586610000009619174396450597304_);}
+	.sp-awards-146{fill:url(#SVGID_00000069363961518652620240000016105945353329562814_);}
+	.sp-awards-147{fill:#F2FCFF;stroke:#100030;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-148{fill:#FFB80A;}
+	.sp-awards-149{fill:#FFDD31;}
+	.sp-awards-150{fill:#FFFAA3;}
+	.sp-awards-151{fill:#FFFDE3;}
+	.sp-awards-152{fill:#975A06;}
+	.sp-awards-153{fill:#6A3404;}
+	.sp-awards-154{fill:url(#SVGID_00000012444389093725352130000008944501310248655016_);}
+	.sp-awards-155{fill:url(#SVGID_00000114048801336460327610000013216995148275381150_);}
+	.sp-awards-156{fill:url(#SVGID_00000047743794150623071670000006049501481755483051_);}
+	.sp-awards-157{fill:url(#SVGID_00000048470894911449652520000014012262590150568067_);}
+	.sp-awards-158{fill:url(#SVGID_00000096749201790418075910000011916152434116087710_);}
+	.sp-awards-159{fill:url(#SVGID_00000118399002430896890670000009527602756869736862_);}
+	.sp-awards-160{opacity:0.43;fill:#FFFFFF;}
+	.sp-awards-161{fill:url(#SVGID_00000178897301394812404990000000933954143958268549_);}
+	.sp-awards-162{fill:url(#SVGID_00000138562715364381964470000012970772480321968062_);}
+	.sp-awards-163{fill:url(#SVGID_00000085947006735443739850000009800560468878120124_);}
+	.sp-awards-164{fill:url(#SVGID_00000062875457113796676450000008673777579230124954_);}
+	.sp-awards-165{fill:url(#SVGID_00000098911648573076205310000017528107872891009689_);}
+	.sp-awards-166{fill:url(#SVGID_00000000939411199435069670000000964317055509286567_);}
+	.sp-awards-167{fill:url(#SVGID_00000034781167398149781150000010021858913830788239_);}
+	.sp-awards-168{fill:url(#SVGID_00000150786956218908867660000000821815450732075917_);}
+	.sp-awards-169{fill:#190048;}
+	.sp-awards-170{opacity:0.27;fill:#C0CCCC;}
+	.sp-awards-171{fill:#EE50F7;}
+	.sp-awards-172{fill:#99FFFF;}
+	.sp-awards-173{fill:#60EEF6;}
+	.sp-awards-174{fill:#F6A9FA;}
+	.sp-awards-175{fill:#EF50F7;}
+	.sp-awards-176{fill:#EC4FF1;}
+	.sp-awards-177{fill:#BE40C5;}
+	.sp-awards-178{fill:#040D27;}
+	.sp-awards-179{fill:url(#SVGID_00000181060830708393836750000008979210039754672784_);}
+	.sp-awards-180{fill:url(#SVGID_00000024688982414517414270000001936068355896564655_);}
+	.sp-awards-181{fill:#502703;}
+	.sp-awards-182{opacity:0.5;fill:#FCEAC7;}
+	.sp-awards-183{opacity:0.3;fill:#FF1BB7;}
+	.sp-awards-184{fill:url(#SVGID_00000056424184890793976450000003803503207647392930_);}
+	.sp-awards-185{fill:url(#SVGID_00000112591423134981305790000000983872522069991556_);}
+	.sp-awards-186{fill:#4D12A0;}
+	.sp-awards-187{fill:#B391E4;}
+	.sp-awards-188{fill:#FFFFFF;stroke:#60F0F8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-189{fill:url(#SVGID_00000177443966400153693770000001207148269193017987_);}
+	.sp-awards-190{fill:url(#SVGID_00000129206766613312714070000003550110356550959284_);}
+	.sp-awards-191{opacity:0.2;clip-path:url(#SVGID_00000036221832457827848790000000509395659245938351_);}
+	.sp-awards-192{fill:#606060;}
+	.sp-awards-193{clip-path:url(#SVGID_00000072993132575036117460000005437709499327921853_);}
+	.sp-awards-194{fill:#E8F8F8;}
+	.sp-awards-195{fill:#B6C5C5;}
+	.sp-awards-196{opacity:0.3;fill:#FFFFFF;enable-background:new    ;}
+	.sp-awards-197{opacity:0.1;fill:#606060;enable-background:new    ;}
+	.sp-awards-198{opacity:0.8;}
+	.sp-awards-199{opacity:0.2;}
+	.sp-awards-200{fill:url(#SVGID_00000109022375729451033060000015476300335442492349_);}
+	.sp-awards-201{fill:url(#SVGID_00000014613964092958520950000002252417179593868715_);}
+	.sp-awards-202{opacity:0.2;clip-path:url(#SVGID_00000053507813088196315180000016513826895267944113_);}
+	.sp-awards-203{clip-path:url(#SVGID_00000134938823488247763180000007210116717074348195_);}
+	.sp-awards-204{opacity:0.1;enable-background:new    ;}
+	.sp-awards-205{fill:url(#SVGID_00000090976489914742047890000016053047333775028367_);}
+	.sp-awards-206{fill:url(#SVGID_00000044888392088537185160000012581248359038670775_);}
+	.sp-awards-207{fill:url(#SVGID_00000093860036245557890760000008966098082158029497_);}
+	.sp-awards-208{fill:url(#SVGID_00000084506409413305328370000006564750507032748458_);}
+	.sp-awards-209{fill:#9DE8FF;}
+	.sp-awards-210{fill:url(#SVGID_00000008836378520448996670000000039058032444403612_);}
+	.sp-awards-211{fill:url(#SVGID_00000141421713843849116170000015755453868882894751_);}
+	.sp-awards-212{fill:url(#SVGID_00000049199225177209716190000002616497384577460410_);}
+	.sp-awards-213{fill:url(#SVGID_00000006682422142551235440000016670614157034207150_);}
+	.sp-awards-214{fill:url(#SVGID_00000002357469833302482050000004043278293932114609_);}
+	.sp-awards-215{fill:url(#SVGID_00000143586847846930485460000010691767827888083367_);}
+	.sp-awards-216{fill:#F498EB;}
+	.sp-awards-217{fill:url(#SVGID_00000042710652534102690090000013511043923253897382_);}
+	.sp-awards-218{fill:url(#SVGID_00000079456918340214651220000009658523261119434167_);}
+	.sp-awards-219{fill:url(#SVGID_00000028306934447613415210000011632324492647642278_);}
+	.sp-awards-220{fill:url(#SVGID_00000166669096692232092550000016713593158249974454_);}
+	.sp-awards-221{fill:#B43CB9;}
+	.sp-awards-222{fill:url(#SVGID_00000096048578352266983040000011164577371832390056_);}
+	.sp-awards-223{fill:url(#SVGID_00000139279208577624846120000001096445853631581112_);}
+	.sp-awards-224{fill:url(#SVGID_00000031182349116556598210000000106873271493026727_);}
+	.sp-awards-225{fill:url(#SVGID_00000009571889397820020690000008773020942861232828_);}
+	.sp-awards-226{fill:url(#SVGID_00000141442279540402281490000001340310600400658103_);}
+	.sp-awards-227{fill:url(#SVGID_00000114049469626742154070000016257603149952708229_);}
+	.sp-awards-228{stroke:#100030;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.sp-awards-229{fill:url(#SVGID_00000016041038029606428650000010232585491232180899_);}
+	.sp-awards-230{fill:url(#SVGID_00000127726803979854090630000008161439661370375565_);}
+	.sp-awards-231{fill:url(#SVGID_00000086664856386897866500000018423523004722353794_);}
+	.sp-awards-232{fill:url(#SVGID_00000171708415887673474940000001316320320896249244_);}
+	.sp-awards-233{fill:url(#SVGID_00000112596541792248585190000015861129145056296621_);}
+	.sp-awards-234{fill:url(#SVGID_00000178898666294225146030000015439400569136312963_);}
+	.sp-awards-235{fill:url(#SVGID_00000011726034317139155540000011418979245205541010_);}
+	.sp-awards-236{fill:url(#SVGID_00000044137170178189187440000018307929859857200529_);}
+	.sp-awards-237{fill:url(#SVGID_00000173847903493219567100000010822830458335528094_);}
+	.sp-awards-238{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-239{fill:url(#SVGID_00000177484733924029002350000005052118232714896544_);}
+	.sp-awards-240{fill:url(#SVGID_00000173875377026506896050000000230526110463482242_);}
+	.sp-awards-241{fill:url(#SVGID_00000076596847030553968560000002824546334259911084_);}
+	.sp-awards-242{fill:url(#SVGID_00000144318123143221493430000013234366783791019425_);}
+	.sp-awards-243{fill:url(#SVGID_00000080174723237724241720000000522101336145304763_);}
+	.sp-awards-244{fill:url(#SVGID_00000051341863130011991050000012569210561541636518_);}
+	.sp-awards-245{fill:url(#SVGID_00000044859327512573044870000011514811391259614907_);}
+	.sp-awards-246{opacity:0;fill:#18F0B8;}
+	.sp-awards-247{fill:url(#SVGID_00000121973665125231730140000003888778964667178905_);}
+	.sp-awards-248{fill:url(#SVGID_00000101066336276652887070000006973649658093253516_);}
+	.sp-awards-249{fill:url(#SVGID_00000142880554295250593690000015752872408511621018_);}
+	.sp-awards-250{fill:url(#SVGID_00000084531822070059346760000017938184279730786975_);}
+	.sp-awards-251{fill:url(#SVGID_00000060735299471446379970000008597813838877010364_);}
+	.sp-awards-252{fill:url(#SVGID_00000124140439021791338950000006882267363941424030_);}
+	.sp-awards-253{fill:url(#SVGID_00000047057761157410549230000010789552376002638977_);}
+	.sp-awards-254{fill:url(#SVGID_00000166652131401267153460000002715356745145808020_);}
+	.sp-awards-255{fill:url(#SVGID_00000101788169337016415130000014257400184796767420_);}
+	.sp-awards-256{fill:url(#SVGID_00000149382295653182401280000003294103555937630869_);}
+	.sp-awards-257{opacity:0.2;fill:#B6C5C5;}
+	.sp-awards-258{fill:#00A0C6;}
+	.sp-awards-259{fill:none;stroke:#00C8F8;stroke-miterlimit:10;}
+	.sp-awards-260{fill:url(#SVGID_00000125561461350634109940000000408731997621672340_);}
+	.sp-awards-261{fill:url(#SVGID_00000154384705687076282120000015828931968555689919_);}
+	.sp-awards-262{fill:url(#SVGID_00000039110862607823814540000007723514518219341244_);}
+	.sp-awards-263{fill:url(#SVGID_00000009551408756932541430000008546585398811731340_);}
+	.sp-awards-264{fill:url(#SVGID_00000144314794541197456170000002013075707993315733_);}
+	.sp-awards-265{fill:url(#SVGID_00000116203774905015203110000000003904592437775251_);}
+	.sp-awards-266{fill:url(#SVGID_00000096032021615170961610000005012589798707028908_);}
+	.sp-awards-267{fill:#4A1B59;}
+	.sp-awards-268{fill:#672578;}
+	.sp-awards-269{fill:url(#SVGID_00000088839022754530662970000018252334052934860677_);}
+	.sp-awards-270{fill:url(#SVGID_00000031172423111545963250000010534879959105383055_);}
+	.sp-awards-271{fill:none;stroke:#F050F8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-272{fill:#B6C5C5;stroke:#180048;stroke-miterlimit:10;}
+	.sp-awards-273{fill:#E8F8F8;stroke:#180048;stroke-miterlimit:10;}
+	.sp-awards-274{fill:#FFFFFF;stroke:#100030;stroke-width:0.75;stroke-miterlimit:10;}
+	.sp-awards-275{fill:url(#SVGID_00000121998682295093693650000008911741307978225299_);}
+	.sp-awards-276{fill:url(#SVGID_00000113343385140313870880000010633730454249260210_);}
+	.sp-awards-277{fill:url(#SVGID_00000059999244531317282890000010049141748608056472_);}
+	.sp-awards-278{fill:url(#SVGID_00000019643262058947858240000007886423844820106154_);}
+	.sp-awards-279{fill:#FFFFFF;stroke:#180048;stroke-width:0.75;stroke-miterlimit:10;}
+	.sp-awards-280{fill:url(#SVGID_00000036959174463569686650000004166028748733129600_);}
+	.sp-awards-281{fill:url(#SVGID_00000041999316393495168260000007358084074177557431_);}
+	.sp-awards-282{fill:none;stroke:#E8F8F8;stroke-miterlimit:10;}
+	.sp-awards-283{fill:none;stroke:#B6C5C5;stroke-miterlimit:10;}
+	.sp-awards-284{opacity:0.8;fill:#4A4F4F;}
+	.sp-awards-285{fill:url(#SVGID_00000137830796260700834770000004483453829933268636_);}
+	.sp-awards-286{fill:url(#SVGID_00000065068501388463790350000018149159688030473119_);}
+	.sp-awards-287{fill:none;stroke:#18F0B8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-288{fill:url(#SVGID_00000153697806244003708120000009617794519291403956_);}
+	.sp-awards-289{fill:url(#SVGID_00000129165278855817114620000009837095305093601158_);}
+	.sp-awards-290{fill:url(#SVGID_00000067922343509172754840000016786842356271261884_);}
+	.sp-awards-291{fill:url(#SVGID_00000095298738476210250070000003533456032750247043_);}
+	.sp-awards-292{fill:url(#SVGID_00000081641006593398346710000016998168341762696070_);}
+	.sp-awards-293{fill:url(#SVGID_00000173874374966616274450000008214112182822934192_);}
+	.sp-awards-294{fill:url(#SVGID_00000020358694415080855310000010122346857061883266_);}
+	.sp-awards-295{fill:url(#SVGID_00000168818333839225503670000012955945084891691700_);}
+	.sp-awards-296{fill:url(#SVGID_00000147214162505059201670000000721535751272299174_);}
+	.sp-awards-297{fill:url(#SVGID_00000175285027957420050340000006300709248668129671_);}
+	.sp-awards-298{fill:url(#SVGID_00000057129109273834932810000017328646960655451323_);}
+	.sp-awards-299{fill:url(#SVGID_00000180336549697526653940000016272325969963992742_);}
+	.sp-awards-300{fill:url(#SVGID_00000021100640035237009680000017382280620755783597_);}
+	.sp-awards-301{fill:url(#SVGID_00000018206281385305873780000016908113460402354069_);}
+	.sp-awards-302{fill:url(#SVGID_00000151540776153934979390000003111837054819592344_);}
+	.sp-awards-303{fill:url(#SVGID_00000011027643201200936870000015164248572600413360_);}
+	.sp-awards-304{fill:url(#SVGID_00000105385208979299548040000012446207931960214434_);}
+	.sp-awards-305{fill:url(#SVGID_00000026862752927677972860000012588501560599165372_);}
+	.sp-awards-306{fill:url(#SVGID_00000167354134898941046420000016139531296697152700_);}
+	.sp-awards-307{fill:url(#SVGID_00000113323391691246781720000004449860026860523392_);}
+	.sp-awards-308{fill:url(#SVGID_00000147207775102591253650000016226350943695887750_);}
+	.sp-awards-309{opacity:0.18;fill:#F050F8;}
+	.sp-awards-310{fill:#F8ABFC;stroke:#100030;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-311{fill:#F8C050;stroke:#100030;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-312{fill:#F8C050;stroke:#100030;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-313{fill:#FFFFFF;stroke:#100030;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-314{fill:#F050F8;stroke:#100030;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-315{fill:#60F0F8;stroke:#100030;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-316{fill:#6018C8;stroke:#100030;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-317{fill:#18F0B8;stroke:#100030;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-318{fill:#F050F8;stroke:#100030;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-319{fill:#5F1ACB;}
+	.sp-awards-320{fill:#5BF2FF;stroke:#100030;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-321{fill:#FFFFFF;stroke:#100030;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-322{fill:#6018C8;stroke:#100030;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-323{fill:#18F0B8;stroke:#100030;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-324{fill:#5BF2FF;stroke:#100030;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-325{fill:none;stroke:#100030;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-326{fill:url(#SVGID_00000145743227833305049540000002792121100526258846_);}
+	.sp-awards-327{fill:url(#SVGID_00000131338719651428240470000005268726490139569809_);}
+	.sp-awards-328{fill:#FFFFFF;stroke:#180048;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-329{fill:url(#SVGID_00000024712008478482297390000010437139207842335124_);}
+	.sp-awards-330{fill:url(#SVGID_00000088813114591886534270000006632046368760042170_);}
+	.sp-awards-331{fill:url(#SVGID_00000007396482069982108980000014374924230337277621_);}
+	.sp-awards-332{fill:url(#SVGID_00000040557750707850958200000000491931164886393525_);}
+	.sp-awards-333{fill:url(#SVGID_00000048474201638864697650000004280412221088383368_);}
+	.sp-awards-334{fill:url(#SVGID_00000047025776455414864100000005653531332917684153_);}
+	.sp-awards-335{fill:url(#SVGID_00000018957764423024849160000004775253174796911018_);}
+	.sp-awards-336{fill:url(#SVGID_00000136394124924614160920000011213363071265825721_);}
+	.sp-awards-337{fill:#E8F8F8;stroke:#180048;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-338{opacity:0.15;fill:#FFFFFF;}
+	.sp-awards-339{fill:url(#SVGID_00000176037206142288422710000011670658415219772294_);}
+	.sp-awards-340{fill:url(#SVGID_00000093860037912953316820000016391148429995924894_);}
+	.sp-awards-341{fill:none;stroke:#E8F8F8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-342{fill:none;stroke:#B6C5C5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-343{fill:#FFFFFF;stroke:#180048;stroke-width:0.1;stroke-miterlimit:10;}
+	.sp-awards-344{fill:url(#SVGID_00000182526106735334805600000016770838637756816808_);}
+	.sp-awards-345{fill:url(#SVGID_00000005258581128982567820000004121598364488218282_);}
+	.sp-awards-346{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-347{fill:#5BF2FF;}
+	.sp-awards-348{fill:url(#SVGID_00000035506442896709183870000010167809466398353042_);}
+	.sp-awards-349{fill:url(#SVGID_00000182511363001011836980000011573346635434314637_);}
+	.sp-awards-350{fill:#F3AFCE;stroke:#211650;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-351{fill:#AC68A7;stroke:#18122D;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-352{fill:#DAACD0;stroke:#18122D;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-353{fill:#FFFFFF;stroke:#211650;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-354{fill:#FFFFFF;stroke:#18122D;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-355{fill:#F8ABFC;stroke:#100030;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-356{fill:#00C8F8;stroke:#100030;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-357{fill:#66BDA2;stroke:#18122D;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-358{fill:#503E90;}
+	.sp-awards-359{fill:#4E3F91;}
+	.sp-awards-360{fill:#F8BF4F;stroke:#18122D;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-361{fill:#F8BF4F;stroke:#211650;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-362{fill:#503E90;stroke:#18122D;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-363{fill:#FFFFFF;stroke:#18122D;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-364{fill:none;stroke:#211650;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-365{fill:none;stroke:#FFFFFF;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-366{fill:#00C8F8;stroke:#100030;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-367{fill:none;stroke:#211B43;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-368{opacity:0.1;fill:#211650;}
+	.sp-awards-369{fill:#211B43;}
+	.sp-awards-370{fill:#B6C4C4;stroke:#26214E;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-371{fill:none;stroke:#B6C4C4;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-372{fill:#B6C4C4;stroke:#26214E;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-373{fill:#E7368B;stroke:#211650;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-374{fill:#59BBAB;stroke:#211650;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-375{fill:#171D36;}
+	.sp-awards-376{fill:#F8BF4F;}
+	.sp-awards-377{fill:#554595;stroke:#211650;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-378{fill:#291F6D;stroke:#26214E;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-379{fill:#101224;}
+	.sp-awards-380{fill:#F8BF4F;stroke:#211650;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-381{fill:none;stroke:#211650;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-382{fill:#47C0F0;stroke:#211650;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-383{fill:#181C30;}
+	.sp-awards-384{fill:url(#SVGID_00000075135372612371511980000007276520175196725917_);}
+	.sp-awards-385{fill:url(#SVGID_00000026880580529467628430000017981748794917962414_);}
+	.sp-awards-386{opacity:0.1;fill:#180048;}
+	.sp-awards-387{opacity:0.6;fill:#9BFFFF;}
+	.sp-awards-388{opacity:0.2;fill:#FFFFFF;}
+	.sp-awards-389{fill:url(#SVGID_00000005984370608959634930000016690821407929847945_);}
+	.sp-awards-390{fill:url(#SVGID_00000171688465709705155090000005900503978156338562_);}
+	.sp-awards-391{opacity:0.8;fill:#FFFFFF;}
+	.sp-awards-392{fill:url(#SVGID_00000011015811293334673930000008297112745940247182_);}
+	.sp-awards-393{fill:url(#SVGID_00000183210259827148599640000008541747323895894923_);}
+	.sp-awards-394{fill:url(#SVGID_00000085240359942978039700000002102875505722984126_);}
+	.sp-awards-395{fill:url(#SVGID_00000135654468455626259170000017942168310143713950_);}
+	.sp-awards-396{fill:url(#SVGID_00000165214337046321467100000016444665985519212735_);}
+	.sp-awards-397{fill:url(#SVGID_00000163757460020994570420000012622442853789114024_);}
+	.sp-awards-398{fill:url(#SVGID_00000088823919223055765660000000720459769742085782_);}
+	.sp-awards-399{fill:url(#SVGID_00000099630809682444583130000001992638479414611363_);}
+	.sp-awards-400{fill:url(#SVGID_00000150823757440381226270000011676081669712393915_);}
+	.sp-awards-401{fill:url(#SVGID_00000118376912122616718210000015463441161076206254_);}
+	.sp-awards-402{fill:url(#SVGID_00000104667628368574180980000013179027616356709253_);}
+	.sp-awards-403{fill:url(#SVGID_00000094576916024182125450000006498648762265420937_);}
+	.sp-awards-404{fill:url(#SVGID_00000052080080759725054650000006641095156723220667_);}
+	.sp-awards-405{fill:url(#SVGID_00000108297770877325124180000008913754761209056917_);}
+	.sp-awards-406{fill:#FEDCB9;}
+	.sp-awards-407{fill:#FAFFFF;}
+	.sp-awards-408{fill:#FEEAD5;}
+	.sp-awards-409{fill:url(#SVGID_00000073713080183534791180000017812383425767381632_);}
+	.sp-awards-410{fill:url(#SVGID_00000155852730570533297990000017682105532198646167_);}
+	.sp-awards-411{fill:url(#SVGID_00000070836024991520185890000003700530915908017539_);}
+	.sp-awards-412{fill:url(#SVGID_00000047046239817060095010000009725444969067357585_);}
+	.sp-awards-413{fill:url(#SVGID_00000145740698290594182140000006584619002203143852_);}
+	.sp-awards-414{fill:url(#SVGID_00000097476177854269191780000003370342560389989536_);}
+	.sp-awards-415{fill:url(#SVGID_00000116941773206165350460000007707587093783835271_);}
+	.sp-awards-416{fill:url(#SVGID_00000145760969795263855350000016803868566193799044_);}
+	.sp-awards-417{fill:#011639;}
+	.sp-awards-418{fill:url(#SVGID_00000052792500212771957590000003842927434382314139_);}
+	.sp-awards-419{fill:url(#SVGID_00000080886228572214432480000012287141807518306737_);}
+	.sp-awards-420{fill:none;stroke:#60F0F8;stroke-width:4;stroke-miterlimit:10;}
+	.sp-awards-421{fill:#FF48D7;}
+	.sp-awards-422{fill:url(#SVGID_00000172442204045792118590000012360121200964173960_);}
+	.sp-awards-423{fill:url(#SVGID_00000024719621284023879270000000516093173820542126_);}
+	.sp-awards-424{fill:url(#SVGID_00000060012830259268732760000003439121010252273583_);}
+	.sp-awards-425{fill:url(#SVGID_00000140703636490318589850000015272801552996181671_);}
+	.sp-awards-426{fill:#756690;}
+	.sp-awards-427{fill:none;stroke:#756690;stroke-width:0.25;stroke-miterlimit:10;}
+	.sp-awards-428{fill:url(#SVGID_00000043430458646226449270000005291329134666435462_);}
+	.sp-awards-429{fill:url(#SVGID_00000008146219953337143450000008142011884452081578_);}
+	.sp-awards-430{fill:#132F59;}
+	.sp-awards-431{fill:url(#SVGID_00000018925569685003868830000018110203895619244428_);}
+	.sp-awards-432{fill:url(#SVGID_00000032625401386478818880000003720663197243849129_);}
+	.sp-awards-433{fill:#F9B9FC;}
+	.sp-awards-434{fill:#602063;}
+	.sp-awards-435{fill:#606666;}
+	.sp-awards-436{fill:#BFA3E9;}
+	.sp-awards-437{fill:#260A50;}
+	.sp-awards-438{fill:none;stroke:#180048;stroke-miterlimit:10;}
+	.sp-awards-439{opacity:0.4;fill:#FFFFFF;}
+	.sp-awards-440{fill:none;stroke:#260A50;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-441{opacity:0.36;fill:#00C8F8;}
+	.sp-awards-442{fill:#019EC4;}
+	.sp-awards-443{fill:none;stroke:#00C6F6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-444{fill:none;stroke:#00C6F6;stroke-width:2;stroke-miterlimit:10;}
+	.sp-awards-445{fill:#00C6F6;}
+	.sp-awards-446{fill:#EE50F6;}
+	.sp-awards-447{fill:#FF48D6;}
+	.sp-awards-448{fill:url(#SVGID_00000010276093093800549390000012399719230598267565_);}
+	.sp-awards-449{fill:url(#SVGID_00000004514900174875070610000000347177262278301630_);}
+	.sp-awards-450{opacity:0.8;fill:#019EC4;}
+	.sp-awards-451{fill:#B4C2C3;}
+	.sp-awards-452{fill:#BDCFD8;}
+	.sp-awards-453{fill:#BD40C4;}
+	.sp-awards-454{fill:none;stroke:#60EEF6;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-455{fill:url(#SVGID_00000160879101715036424390000004603107578845177217_);}
+	.sp-awards-456{fill:url(#SVGID_00000080922516634799423650000007984441018914215320_);}
+	.sp-awards-457{fill:url(#SVGID_00000108990189088006893900000015107016211419074948_);}
+	.sp-awards-458{fill:url(#SVGID_00000056390568334823228710000014567411263285810609_);}
+	.sp-awards-459{fill:#F6BE50;}
+	.sp-awards-460{fill:#EEFFFF;}
+	.sp-awards-461{fill:#C49840;}
+	.sp-awards-462{fill:url(#SVGID_00000152226286153406427350000014281848482915488176_);}
+	.sp-awards-463{fill:url(#SVGID_00000033338129610257472920000004742943245003765891_);}
+	.sp-awards-464{fill:url(#SVGID_00000170250499050864077720000015376355458964196499_);}
+	.sp-awards-465{fill:url(#SVGID_00000062885017049427909280000015086109364049367974_);}
+	.sp-awards-466{fill:#9BE6FF;}
+	.sp-awards-467{fill:#F7FFFC;}
+	.sp-awards-468{fill:#FF91E6;}
+	.sp-awards-469{fill:url(#SVGID_00000047760171924785797020000003621023107515599034_);}
+	.sp-awards-470{fill:url(#SVGID_00000123401306210196270360000000317371280844071093_);}
+	.sp-awards-471{fill:none;stroke:#C040C6;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-472{fill:none;stroke:#C040C6;stroke-width:0.25;stroke-miterlimit:10;}
+	.sp-awards-473{opacity:0.55;}
+	.sp-awards-474{fill:url(#SVGID_00000113348574292351391470000004106261462184569534_);}
+	.sp-awards-475{fill:url(#SVGID_00000044893655150857595540000003921561394430430609_);}
+	.sp-awards-476{opacity:0.2;fill:#2E0C60;}
+	.sp-awards-477{fill:none;stroke:#60EEF6;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-478{fill:none;stroke:#99FFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-479{fill:url(#SVGID_00000109720640987209356780000008557014798748458637_);}
+	.sp-awards-480{fill:url(#SVGID_00000144301098421830963760000003092690516444677785_);}
+	.sp-awards-481{fill:url(#SVGID_00000073715185162425810000000005472179754099749821_);}
+	.sp-awards-482{fill:url(#SVGID_00000011722046705385944650000007393047518511372425_);}
+	.sp-awards-483{fill:url(#SVGID_00000049222828456227291380000009552586387901944196_);}
+	.sp-awards-484{fill:#00C6F6;stroke:#9BFFFF;stroke-width:0.1;stroke-miterlimit:10;}
+	.sp-awards-485{fill:url(#SVGID_00000002371243293001091120000005555514779951885209_);}
+	.sp-awards-486{fill:url(#SVGID_00000047745705846906805460000012290655929842606517_);}
+	.sp-awards-487{opacity:0.2;fill:#180048;}
+	.sp-awards-488{fill:url(#SVGID_00000049903535653085469730000009047051348751889808_);}
+	.sp-awards-489{fill:url(#SVGID_00000114047827804745213530000015547215524417154218_);}
+	.sp-awards-490{fill:#1B0040;}
+	.sp-awards-491{fill:url(#SVGID_00000060729381038872341980000016598517660722475184_);}
+	.sp-awards-492{fill:url(#SVGID_00000065777789537829796490000013741656618780135580_);}
+	.sp-awards-493{fill:#01A0C6;}
+	.sp-awards-494{fill:#6018C6;}
+	.sp-awards-495{fill:#4D129E;}
+	.sp-awards-496{fill:#B18FE2;}
+	.sp-awards-497{fill:url(#SVGID_00000160881934554500829090000009953131920036451719_);}
+	.sp-awards-498{fill:url(#SVGID_00000030483636858726175400000004942776737261118604_);}
+	.sp-awards-499{fill:url(#SVGID_00000080925299472583193030000012828979695943067535_);}
+	.sp-awards-500{fill:url(#SVGID_00000101810300450682128100000012345994295369737098_);}
+	.sp-awards-501{fill:#2E0D60;}
+	.sp-awards-502{fill:url(#SVGID_00000176007429161047947610000009060809996165866678_);}
+	.sp-awards-503{fill:#BD9FE7;}
+	.sp-awards-504{fill:none;stroke:#FF48D8;stroke-width:3;stroke-miterlimit:10;}
+	.sp-awards-505{opacity:0.4;fill:#180048;}
+	.sp-awards-506{fill:url(#SVGID_00000008829444117912645270000010037648212777777569_);}
+	.sp-awards-507{fill:url(#SVGID_00000170992248029415354140000012016588572502559931_);}
+	.sp-awards-508{opacity:0.3;fill:#FFFFFF;}
+	.sp-awards-509{fill:url(#SVGID_00000178201316894250671230000001833950160540222101_);}
+	.sp-awards-510{fill:url(#SVGID_00000053520260519506141230000000481487597811158170_);}
+	.sp-awards-511{fill:url(#SVGID_00000135666652892981514130000016390488355767215807_);}
+	.sp-awards-512{opacity:0.5;fill:#B391E4;}
+	.sp-awards-513{fill:#2E0D60;stroke:#B391E4;stroke-width:2;stroke-miterlimit:10;}
+	.sp-awards-514{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.sp-awards-515{fill:#F8C537;}
+	.sp-awards-516{fill:#F9D05F;}
+	.sp-awards-517{fill:#010101;}
+	.sp-awards-518{fill:#3DCCB8;}
+	.sp-awards-519{fill:#B8CCE6;}
+	.sp-awards-520{fill:#B43396;}
+	.sp-awards-521{opacity:0.12;fill:#FFFFFF;}
+	.sp-awards-522{opacity:0.28;fill:#FFFFFF;}
+	.sp-awards-523{opacity:0.21;fill:#010101;}
+	.sp-awards-524{fill:#D4E0F0;}
+	.sp-awards-525{fill:none;stroke:#010101;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0134,6.0202;}
+	.sp-awards-526{fill:#FBFBFC;}
+	.sp-awards-527{fill:#FBFBFB;}
+	.sp-awards-528{fill:#B2E4E6;}
+	.sp-awards-529{opacity:0.5;fill:#FBFBFB;}
+	.sp-awards-530{fill:#FAFFFD;}
+	.sp-awards-531{fill:#872671;}
+	.sp-awards-532{fill:none;stroke:#010101;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-533{fill:#B1E3E5;}
+	.sp-awards-534{opacity:0.15;fill:#FDFDFD;}
+	.sp-awards-535{opacity:0.58;fill:#FDFDFD;}
+	.sp-awards-536{fill:#BDBDBD;}
+	.sp-awards-537{opacity:0.34;fill:#0F0030;}
+	.sp-awards-538{fill:#F7BF50;}
+	.sp-awards-539{fill:#B5C4C4;}
+	.sp-awards-540{fill:#4A4F4F;}
+	.sp-awards-541{fill:#5BF7FF;}
+	.sp-awards-542{fill:#FFFFFF;stroke:#EF50F7;stroke-width:3;stroke-miterlimit:10;}
+	.sp-awards-543{fill:#2D19BE;}
+	.sp-awards-544{fill:#6675F6;}
+	.sp-awards-545{fill:url(#SVGID_00000179641074793749675740000009791825720511416757_);}
+	.sp-awards-546{fill:url(#SVGID_00000040537512227187259440000005774228133541833864_);}
+	.sp-awards-547{opacity:0.8;fill:#00B3DF;}
+	.sp-awards-548{opacity:0.1;fill:#FFFFFF;}
+	.sp-awards-549{fill:#F90DCC;}
+	.sp-awards-550{fill:url(#SVGID_00000090977059925870840950000011021322791561128067_);}
+	.sp-awards-551{fill:url(#SVGID_00000067930809795258198400000010442134767729147319_);}
+	.sp-awards-552{fill:url(#SVGID_00000076565039963370792250000006960746398249499316_);}
+	.sp-awards-553{fill:#38C1C1;}
+	.sp-awards-554{fill:url(#SVGID_00000040572714605120691380000005751157766353813120_);}
+	.sp-awards-555{fill:url(#SVGID_00000061438296430646720430000008767926945685740171_);}
+	.sp-awards-556{fill:url(#SVGID_00000000218631394872205330000007368919215402935466_);}
+	.sp-awards-557{opacity:0.67;fill:#BF36A2;}
+	.sp-awards-558{fill:url(#SVGID_00000146496724968879359510000015511259876653509037_);}
+	.sp-awards-559{fill:url(#SVGID_00000134952843524982746810000000275248219954789276_);}
+	.sp-awards-560{fill:url(#SVGID_00000058563919608019020480000008434592800477722801_);}
+	.sp-awards-561{fill:url(#SVGID_00000078758518691151639130000006309675686735284408_);}
+	.sp-awards-562{fill:#5DF4CD;}
+	.sp-awards-563{opacity:0.1;fill:#100030;}
+	.sp-awards-564{fill:#A4FFE8;}
+	.sp-awards-565{fill-rule:evenodd;clip-rule:evenodd;fill:#FFA26B;}
+	.sp-awards-566{fill:none;stroke:#1ED6A6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-567{fill:#2D19B8;}
+	.sp-awards-568{fill:url(#SVGID_00000150793676155669898680000000914710257669411748_);}
+	.sp-awards-569{fill:url(#SVGID_00000072267126952069756000000011417156841635495808_);}
+	.sp-awards-570{fill:url(#SVGID_00000042730037573891812690000015249172399004786313_);}
+	.sp-awards-571{fill:url(#SVGID_00000000940045475154846640000004331728793001719200_);}
+	.sp-awards-572{fill:url(#SVGID_00000039135449723556990030000002819081011915515574_);}
+	.sp-awards-573{fill:url(#SVGID_00000052063199112988714190000002187637429693849778_);}
+	.sp-awards-574{opacity:0.2;fill:#190048;}
+	.sp-awards-575{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;}
+	.sp-awards-576{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:8.752,8.752;}
+	.sp-awards-577{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:9;}
+	.sp-awards-578{fill:#E8F9F8;}
+	.sp-awards-579{fill:url(#SVGID_00000098187121059633150790000010480128902316699806_);}
+	.sp-awards-580{fill:url(#SVGID_00000098184083487718071470000005837490904624929726_);}
+	.sp-awards-581{fill:url(#SVGID_00000030469862492342921250000008329861810443445942_);}
+	.sp-awards-582{fill:url(#SVGID_00000122721680101297629550000013790114901935301021_);}
+	.sp-awards-583{fill:#100030;stroke:#180048;stroke-width:0.5;stroke-miterlimit:10;}
+	.sp-awards-584{fill:url(#SVGID_00000057857272924172935160000005981289937279570570_);}
+	.sp-awards-585{fill:url(#SVGID_00000025402012257748884470000003350523012133226636_);}
+	.sp-awards-586{fill:#2623B6;}
+	.sp-awards-587{fill:#F2A575;}
+	.sp-awards-588{fill:#5248F5;}
+	.sp-awards-589{fill:#6777EE;}
+	.sp-awards-590{fill:#B8FCE8;}
+	.sp-awards-591{fill:#FFBD97;}
+	.sp-awards-592{fill:#DD8E62;}
+	.sp-awards-593{fill:#CE8F3F;}
+	.sp-awards-594{fill:url(#SVGID_00000127726171996569261590000013873628120521682082_);}
+	.sp-awards-595{fill:url(#SVGID_00000014609752266308943060000008028094600325015723_);}
+	.sp-awards-596{fill:url(#SVGID_00000116199299888186326210000011005698521399554233_);}
+	.sp-awards-597{opacity:0.42;}
+	.sp-awards-598{fill:url(#SVGID_00000127041542339141612210000000669076854309292945_);}
+	.sp-awards-599{fill:url(#SVGID_00000183956536847657769370000013505444066690473149_);}
+	.sp-awards-600{fill:url(#SVGID_00000107568456987583345940000000559105960265864332_);}
+	.sp-awards-601{fill:url(#SVGID_00000058558751913633776470000001959767934458748059_);}
+	.sp-awards-602{fill:url(#SVGID_00000023263711072953773100000014698772396481775012_);}
+	.sp-awards-603{fill:url(#SVGID_00000048479245871877419260000001194860077614349207_);}
+	.sp-awards-604{fill:#EA3FCA;}
+	.sp-awards-605{fill:#080D4C;}
+	.sp-awards-606{opacity:0.26;fill:#A67C52;}
+	.sp-awards-607{fill:none;stroke:#1B1B1B;stroke-miterlimit:10;}
+	.sp-awards-608{fill:none;stroke:#1B1B1B;stroke-miterlimit:10;stroke-dasharray:3.0109,3.0109;}
+	.sp-awards-609{fill:none;stroke:#1B1B1B;stroke-width:2;stroke-miterlimit:10;}
+	.sp-awards-610{fill:none;stroke:#1B1B1B;stroke-miterlimit:10;stroke-dasharray:3;}
+	.sp-awards-611{fill:#662D91;}
+	.sp-awards-612{fill:none;stroke:#662D91;stroke-width:2;stroke-miterlimit:10;}
+	.sp-awards-613{fill:url(#SVGID_00000125582180209239340880000006551734454235112583_);}
+	.sp-awards-614{fill:url(#SVGID_00000147906478681942757600000009331712259562912901_);}
+	.sp-awards-615{fill:#E5FE04;}
+	.sp-awards-616{fill:#0EBE02;}
+	.sp-awards-617{fill:#77008A;}
+	.sp-awards-618{fill:#020202;}
+	.sp-awards-619{fill:#613815;}
+	.sp-awards-620{fill:#74D7EE;}
+	.sp-awards-621{fill:#FEAFC9;}
+	.sp-awards-622{fill:url(#SVGID_00000000183699238029392990000012732027937216504757_);}
+	.sp-awards-623{fill:url(#SVGID_00000101792351009974542000000011595424672258305445_);}
+	.sp-awards-624{fill:url(#SVGID_00000159441529704612346490000004423119050422406295_);}
+	.sp-awards-625{fill:url(#SVGID_00000016793733464646995510000003884649530956437120_);}
+	.sp-awards-626{opacity:0.61;}
+	.sp-awards-627{fill:url(#SVGID_00000020369143699489075270000018069889800957082258_);}
+	.sp-awards-628{fill:url(#SVGID_00000091732758483955582800000011514523495774833823_);}
+	.sp-awards-629{fill:#2D1A83;}
+	.sp-awards-630{fill:#2D1A83;stroke:#6675F6;stroke-width:0.1;stroke-miterlimit:10;}
+	.sp-awards-631{fill:#220D64;}
+	.sp-awards-632{fill:none;stroke:#F050F8;stroke-width:4.09;stroke-miterlimit:10;}
+	.sp-awards-633{fill:#7ECADC;}
+	.sp-awards-634{fill:#2CBCED;}
+	.sp-awards-635{fill:#47C0F0;}
+	.sp-awards-636{opacity:0.3;fill:#00C8F8;enable-background:new    ;}
+	.sp-awards-637{fill:#DF3A8C;}
+	.sp-awards-638{fill:none;stroke:#C040C6;stroke-width:2.32;stroke-linecap:round;stroke-linejoin:round;}
+	.sp-awards-639{fill:none;stroke:#F050F8;stroke-width:2.32;stroke-linecap:round;stroke-linejoin:round;}
+	.sp-awards-640{fill:#BCBCBB;}
+	.sp-awards-641{fill:none;stroke:#AB66A6;stroke-width:2.32;stroke-linecap:round;stroke-linejoin:round;}
+	.sp-awards-642{opacity:0.85;fill:#60F0F8;enable-background:new    ;}
+	.sp-awards-643{fill:#43B3DE;}
+	.sp-awards-644{fill:#009DD7;}
+	.sp-awards-645{fill:#A9A9B1;}
+	.sp-awards-646{fill:#18122D;}
+	.sp-awards-647{fill:none;stroke:#FFFFFF;stroke-width:1.03;stroke-miterlimit:10;}
+	.sp-awards-648{opacity:0.2;fill:#BFA3E9;enable-background:new    ;}
+	.sp-awards-649{opacity:0.5;fill:#260A50;enable-background:new    ;}
+	.sp-awards-650{opacity:0.11;}
+	.sp-awards-651{opacity:0.11;fill:#FF48D8;enable-background:new    ;}
+	.sp-awards-652{fill:#482F87;}
+	.sp-awards-653{fill:#F8C04F;}
+	.sp-awards-654{opacity:0.3;fill:#F8C04F;}
+	.sp-awards-655{fill:#F050F8;stroke:#F050F8;stroke-miterlimit:10;}
+	.sp-awards-656{opacity:0.5;fill:#892556;enable-background:new    ;}
+	.sp-awards-657{opacity:0.5;fill:#C040C6;enable-background:new    ;}
+	.sp-awards-658{fill:url(#SVGID_00000119112481347606232240000008522926622001288876_);}
+	.sp-awards-659{fill:url(#SVGID_00000031901959008330118270000012333668174184106431_);}
+	.sp-awards-660{fill:#7B535B;}
+	.sp-awards-661{fill:url(#SVGID_00000154411564481737178490000015170568941957545406_);}
+	.sp-awards-662{fill:url(#SVGID_00000138572078532408089360000001785084403546996893_);}
+	.sp-awards-663{fill:#E13A2E;}
+	.sp-awards-664{fill:#FCB417;}
+	.sp-awards-665{fill:url(#SVGID_00000170266914399261029860000016311377820330966428_);}
+	.sp-awards-666{fill:url(#SVGID_00000029024063136963726650000018425129027049544614_);}
+	.sp-awards-667{fill:url(#SVGID_00000041976730250513630750000015727892425980944271_);}
+	.sp-awards-668{fill:url(#SVGID_00000137096006666670231220000018432005318627292563_);}
+	.sp-awards-669{fill:#D9DDFF;}
+	.sp-awards-670{fill:url(#SVGID_00000160161379786186811870000014992428943110871958_);}
+	.sp-awards-671{fill:url(#SVGID_00000109710148155944346700000001288005429787072418_);}
+	.sp-awards-672{stroke:#100030;stroke-width:0.25;stroke-linecap:round;stroke-miterlimit:10;}
+	.sp-awards-673{fill:url(#SVGID_00000127024930361097128840000014509372801510611354_);}
+	.sp-awards-674{fill:url(#SVGID_00000021816736755242864560000001654862740369606329_);}
+	.sp-awards-675{fill:url(#SVGID_00000165224730620598453170000006850536940437167804_);}
+	.sp-awards-676{fill:url(#SVGID_00000030484227979612298730000016855625144424233115_);}
+	.sp-awards-677{fill:url(#SVGID_00000179623165516942777930000003849116353235558040_);}
+	.sp-awards-678{fill:url(#SVGID_00000149377340166442109980000014110252141187264174_);}
+	.sp-awards-679{fill:url(#SVGID_00000181768041372316503550000016922787665202334345_);}
+	.sp-awards-680{fill:url(#SVGID_00000174586943547695127130000010737238316015920276_);}
+	.sp-awards-681{fill:url(#SVGID_00000142158370432217916590000002324080502184821416_);}
+	.sp-awards-682{fill:url(#SVGID_00000111184053844491010290000001275677140214789791_);}
+	.sp-awards-683{fill:url(#SVGID_00000096056681743534964080000003542515140178649507_);}
+	.sp-awards-684{fill:url(#SVGID_00000128453797713713053560000004333428845167819193_);}
+	.sp-awards-685{fill:url(#SVGID_00000119104452390282915250000014956332283373680018_);}
+	.sp-awards-686{fill:url(#SVGID_00000045621363648751579560000015735485001840510092_);}
+	.sp-awards-687{fill:url(#SVGID_00000013159731452767601320000015729564378492184747_);}
+	.sp-awards-688{fill:url(#SVGID_00000169545499378709310950000015872729454990749066_);}
+	.sp-awards-689{opacity:0.5;fill:#100030;}
+	.sp-awards-690{opacity:0.2;fill:#F9B9FC;}
+	.sp-awards-691{fill:url(#SVGID_00000083062407217209174290000017286323498506837424_);}
+	.sp-awards-692{fill:url(#SVGID_00000011725017012717455780000004423507078233366156_);}
+	.sp-awards-693{fill:#BDF2FF;}
+	.sp-awards-694{fill:url(#SVGID_00000083090161974479699320000012132450842095255484_);}
+	.sp-awards-695{fill:url(#SVGID_00000096030106463168064030000008897641396484312456_);}
+	.sp-awards-696{fill:none;stroke:#60F0F8;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+	.sp-awards-697{fill:none;stroke:#FFA26B;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;}
+	.sp-awards-698{fill:none;stroke:#FFA26B;stroke-width:1.8151;stroke-linecap:round;stroke-linejoin:round;}
+	.sp-awards-699{opacity:0.34;fill:#F8ABFC;}
+	.sp-awards-700{fill:none;stroke:#15F0B7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.sp-awards-701{opacity:0.2;fill:#FFFCFC;enable-background:new    ;}
+	.sp-awards-702{opacity:0.2;fill:#100030;enable-background:new    ;}
+	.sp-awards-703{fill:#ED50F5;}
+	.sp-awards-704{fill:#F4905D;}
+	.sp-awards-705{fill-rule:evenodd;clip-rule:evenodd;fill:#FFBD97;}
+	.sp-awards-706{fill-rule:evenodd;clip-rule:evenodd;fill:#F4905D;}
+	.sp-awards-707{fill:#FFA26B;stroke:#FFFFFF;stroke-width:0.826;}
+	.sp-awards-708{opacity:0.5;fill:#FFFFFF;enable-background:new    ;}
+	.sp-awards-709{fill:url(#SVGID_00000044859582860545752380000003977088416903133087_);}
+	.sp-awards-710{fill:url(#SVGID_00000122704183648504611910000006049985697692637577_);}
+	.sp-awards-711{opacity:0.8;fill:#FFFFFF;enable-background:new    ;}
+	.sp-awards-712{opacity:0.5;fill:#100030;enable-background:new    ;}
+	.sp-awards-713{fill-rule:evenodd;clip-rule:evenodd;fill:#100030;}
+	.sp-awards-714{fill-rule:evenodd;clip-rule:evenodd;fill:#180048;}
+	.sp-awards-715{fill:#100030;stroke:#FFA26B;stroke-width:0.25;stroke-miterlimit:10;}
+	.sp-awards-716{fill:#FFFCF5;}
+	.sp-awards-717{clip-path:url(#SVGID_00000163758438675904967580000002365115956194015915_);}
+	.sp-awards-718{clip-path:url(#SVGID_00000157990073429096881730000002834883543674019993_);}
+	.sp-awards-719{fill:#D8DCE0;}
+	.sp-awards-720{fill:#5F1AC9;}
+	.sp-awards-721{fill:#5BEDFF;}
+	.sp-awards-722{fill:#2FA278;}
+	.sp-awards-723{fill:#11B679;}
+</style>
+<path class="sp-awards-9" d="M71.8,108.4c-2.9,3.3-8.6,17.4-7.5,17.8c1.1,0.4,18.4-9,18.3-10c-0.1-1.1-21.5-1.9-21.5-1
+	c0.1,0.9,14.7,12.6,15.5,11.8C77.6,126.2,72.5,107.6,71.8,108.4z"/>
+<path class="sp-awards-9" d="M86.2,87.4c-3.5,2.7-12,15.4-11,16c1,0.6,19.8-5.1,19.9-6.2c0.1-1-20.6-6.2-20.8-5.3
+	c-0.2,0.9,11.9,15.3,12.9,14.6C88.3,105.8,87.1,86.7,86.2,87.4z"/>
+<path class="sp-awards-9" d="M103.2,70.3c-3.5,2.7-12,15.4-11,16c1,0.6,19.8-5.1,19.9-6.2c0.1-1-20.6-6.2-20.8-5.3
+	c-0.2,0.9,11.9,15.3,12.9,14.6C105.3,88.5,104.2,69.5,103.2,70.3z"/>
+<path class="sp-awards-9" d="M127,60.5c-3.9,2-14.4,13.1-13.6,13.8c0.9,0.7,20.4-1.5,20.7-2.6c0.3-1.1-19.3-9.7-19.5-8.9
+	c-0.3,0.8,9,17.3,10.2,16.6C125.8,78.9,128.1,59.9,127,60.5z"/>
+<path class="sp-awards-9" d="M150.5,55.3c-3.5,2.7-12,15.4-11,16c1,0.6,19.8-5.1,19.9-6.2c0.1-1-20.6-6.2-20.8-5.3
+	c-0.2,0.9,11.9,15.3,12.9,14.6C152.6,73.6,151.4,54.5,150.5,55.3z"/>
+<ellipse class="sp-awards-712" cx="153.4" cy="209.3" rx="45.7" ry="7.8"/>
+<g id="Earth_00000132067709743242931090000000448358922322881947_">
+	<path class="sp-awards-18" d="M86,139.5c-3.6,35.6,23.3,67.5,60,71.2c15.7,1.6,30.6-2.2,42.8-9.8c16.2-10,27.7-26.7,30.1-46.6
+		c0.1-0.4,0.1-0.9,0.1-1.3c0.3-3.4,0.4-6.8,0.2-10.2c-0.9-14.4-6.6-27.7-15.8-38.2c-10.8-12.4-26.5-21-44.4-22.8
+		c-7.2-0.7-14.3-0.3-21,1.1c-23.3,4.9-42.5,21.7-49.5,44.1l0,0C87.3,131,86.5,135.2,86,139.5z"/>
+	<path class="sp-awards-20" d="M88.6,127c3.9-4.5,8.2-4.9,11.9-2.2c3.7,2.7-0.8,7.9,2.4,10.1c3.2,2.2,8-1.7,9.9,1.3c1.9,3-0.2,6.9-4.1,7
+		c-3.9,0.1-8.3-1.6-9.7,2.4c-1.3,4,2.5,8.9,6.6,12.2c4.1,3.4,3.4,7.6,3.2,13c-0.2,5.4,2.6,17.4,10.2,19.6s9.7-4.3,10.6-9.1
+		c1-4.8,4.3-7.4,9.7-7.2c5.4,0.2,9.7,0.7,10.1-2.7c0.5-3.3-2.1-3.9-4.6-7.4c-2.6-3.5,1.4-6-2.3-9.6c-3.6-3.6-9.6-1.7-14.6-6.6
+		c-5.1-4.8-4.1-14.5,0.1-15.7c4.1-1.3,4.6,2,5.9,4.1c1.3,2.1,5.4,1.8,7.4-1.4c2-3.2,1.8-11.2,6.6-9.2c4.9,2,12.3,2,13.1-4.5
+		c0.8-6.6-5.8-8-9.1-7.4c-3.3,0.6-5.7-2-7.5-4.9c-1.9-3-7.2-3.4-9.1-7.9c-1.9-4.5,3.6-8,5.1-12.3c0.9-2.6-0.8-4.5-2.4-5.7
+		C114.8,87.8,95.6,104.6,88.6,127z"/>
+	<path class="sp-awards-20" d="M196.2,120.1c3,5.2,5.3,6.9,4.1,10.9c-1.2,4,0.1,7.1,4.2,8.6c3.6,1.3,11.8,0.7,14.7,3.3
+		c-0.9-14.4-6.6-27.7-15.8-38.2C200.9,107.5,193.8,115.8,196.2,120.1z"/>
+	<path class="sp-awards-20" d="M184.4,180.6c0.1,7.1,7.8,12.3,4.5,20.4c16.2-10,27.7-26.7,30.1-46.6c-2.5,0.4-7.2,2-9.3,7.2
+		c-3.1,7.3-5.7,11.6-11,11.1C193.3,172.1,184.3,173.5,184.4,180.6z"/>
+	<path class="sp-awards-20" d="M95.7,160.7c0.4,0,0.8,0.2,1.2,0.2c0.5,0.1,1.1,0.3,1.6,0.5c1.5,0.7,2.7,1.8,3.6,3.2c2.7,3.9,0.4,6.5-1.8,6.3
+		c-1.3-0.1-2.5-1.9-3.1-2.9c-1-1.5-2.2-3.4-2.6-5.2c-0.1-0.4-0.1-0.9,0.1-1.3c0.1-0.3,0.2-0.5,0.5-0.6
+		C95.3,160.8,95.5,160.7,95.7,160.7z"/>
+	<path class="sp-awards-20" d="M169.3,100.2c-0.3,0.9-0.3,1.9-0.3,2.8c0,1.6,0.4,3.6,1.8,4.7c2.6,1.9,3.5,3.1,4.1,5.3
+		c0.6,2.2,2.9,6.4,9.1,4.5c6.2-1.9,4.6-9.2,0.9-11.2c-3.6-2-3-8.3-9.1-8.7c-1.7-0.1-3.6,0-5.1,0.8C170,98.8,169.5,99.4,169.3,100.2z
+		"/>
+	<path class="sp-awards-20" d="M146.1,100.5c0,0,1.5-4.1,7.1-1.6s5.7,5.5,4.7,7.5c-1,2-6,2.1-8.8-0.1C146.3,104.1,145.4,102,146.1,100.5z"/>
+	<path class="sp-awards-42" d="M154.6,152.8c0,0-1.1,4-4,3.3c-2.9-0.7-2.4-4.3-2.4-4.3"/>
+	<path class="sp-awards-42" d="M134.2,147.4c0,0,1.2-4,3.5-3.4s1.9,4.5,1.9,4.5"/>
+	<path class="sp-awards-42" d="M165,152c0,0,1.2-3.6,3.7-3.3c2.5,0.4,1.9,4.5,1.9,4.5"/>
+	
+		<ellipse transform="matrix(0.1009 -0.9949 0.9949 0.1009 -7.1579 307.7373)" class="sp-awards-703" cx="166.7" cy="157.8" rx="3.4" ry="4.6"/>
+	
+		<ellipse transform="matrix(0.1009 -0.9949 0.9949 0.1009 -30.1017 272.6413)" class="sp-awards-703" cx="135.8" cy="153" rx="3.4" ry="4.6"/>
+	<path class="sp-awards-34" d="M215.9,137.6c0.5,3.8,0.8,8.6,0.2,14.1"/>
+	<path class="sp-awards-34" d="M213.7,128.9c0,0,0.8,1.9,1.5,5.3"/>
+	<circle class="sp-awards-22" cx="186.2" cy="198.8" r="0.7"/>
+	<circle class="sp-awards-22" cx="182.5" cy="201" r="0.7"/>
+	<circle class="sp-awards-22" cx="146" cy="85.1" r="1.1"/>
+	<circle class="sp-awards-22" cx="149.2" cy="89.5" r="1"/>
+	<circle class="sp-awards-22" cx="143" cy="90.3" r="1"/>
+</g>
+<path class="sp-awards-713" d="M183.4,169.7h7.5v22.5l-3.7-3.8l-3.8,3.8V169.7z"/>
+<path class="sp-awards-714" d="M187.1,169.7h3.7v22.5l-3.7-3.8V169.7z"/>
+<path class="sp-awards-714" d="M187.5,161.1l1.9,2.6l3-1.4c0.3-0.1,0.5,0,0.5,0.3v0.1l0.5,3.4l3.2,0.4c0.3,0,0.4,0.3,0.4,0.5v0.1l-1.4,3
+	l2.6,1.9c0.1,0,0.1,0.3,0,0.5c0,0,0,0.1-0.1,0.1l-2.6,2l1.4,3c0.1,0.3,0,0.5-0.3,0.5h-0.1l-3.2,0.4l-0.4,3.2c0,0.3-0.3,0.4-0.5,0.4
+	h-0.1l-3-1.4l-1.9,2.6c0,0.1-0.3,0.1-0.5,0c0,0-0.1,0-0.1-0.1l-1.9-2.6l-3,1.4c-0.3,0.1-0.5,0-0.5-0.3v-0.1l-0.5-3.2l-3.1-0.3
+	c-0.3,0-0.4-0.3-0.4-0.5v-0.1l1.4-3l-2.7-1.9c-0.1-0.1-0.1-0.4,0-0.6c0,0,0-0.1,0.1-0.1l2.6-2l-1.4-2.9c-0.1-0.3,0-0.5,0.3-0.5h0.1
+	l3.2-0.4l0.4-3.2c0-0.3,0.3-0.4,0.5-0.4h0.1l3,1.2l1.9-2.6C186.9,160.9,187.1,160.9,187.5,161.1
+	C187.4,161.1,187.4,161.1,187.5,161.1z M188.5,167.2h-2.7l-2.4,1.4l-1.2,2.3v2.9l1.2,2.1l2.5,1.4h2.5l2.4-1.4l1.4-2.4v-2.5l-1.5-2.5
+	L188.5,167.2z"/>
+<path class="sp-awards-715" d="M186,178.6c4.4,0.7,8.2-3.1,7.5-7.5c-0.4-2.7-2.6-4.9-5.3-5.3c-4.4-0.7-8.2,3.1-7.5,7.5
+	C181.2,176,183.3,178.1,186,178.6z"/>
+<path class="sp-awards-703" d="M196.2,114.3c2.6-2.2,5-4.6,7.3-7.1c3.3-3.7,4.4-3.3,8.5-2.9c4,0.4,22.6,0.2,29.4-4.8
+	c6.9-4.9,9.8-11.4,6.9-19.9c-2.9-8.5-10.5-15-24.5-12.2c-14,2.8-23,6.4-27.7,11.7c-4.8,5.3-1.7,12.7-0.5,16.7c1.3,4,1.9,5.9,0.3,8.7
+	C194.3,107.3,191.1,117.6,196.2,114.3z"/>
+<path class="sp-awards-22" d="M218.4,83.4l0.8-0.2l-0.6-3l1.1-0.2l-0.2-0.8l-3,0.6l0.1,0.8l1.1-0.2L218.4,83.4z M220.9,82.8l0.8-0.2
+	l-0.3-1.5l1.5-0.3l0.3,1.5l0.8-0.2l-0.7-3.8l-0.8,0.2l0.3,1.5l-1.5,0.3l-0.3-1.5l-0.8,0.2L220.9,82.8z M224.6,82.1l0.8-0.2l0.2-0.9
+	l1.5-0.3l0.5,0.8l0.8-0.2l-2.3-3.5l-0.7,0.2L224.6,82.1z M225.7,80.2l0.2-1.3l0.7,1.1L225.7,80.2z M229,81.2l0.8-0.2l-0.5-2.4l2.2,2
+	l0.7-0.1l-0.7-3.8l-0.8,0.2l0.5,2.3l-2.2-2l-0.7,0.2L229,81.2z M233.1,80.3l0.8-0.2l-0.2-1.1l0.3-0.5l1.4,1.4l1-0.2l-2-1.8l1.2-1.9
+	l-1,0.2l-1.2,1.9l-0.3-1.6l-0.8,0.2L233.1,80.3z M238.2,79.3c0.8-0.2,1.3-0.7,1.1-1.4v0c-0.1-0.7-0.6-0.8-1.4-0.9
+	c-0.7,0-0.8-0.1-0.9-0.3v0c0-0.2,0.1-0.4,0.4-0.4c0.3-0.1,0.7,0,1,0.2l0.3-0.7c-0.4-0.2-0.9-0.3-1.5-0.2c-0.8,0.2-1.2,0.7-1.1,1.4v0
+	c0.2,0.7,0.7,0.9,1.4,0.9c0.6,0,0.8,0.1,0.8,0.3v0c0,0.2-0.1,0.4-0.5,0.5c-0.4,0.1-0.8,0-1.2-0.2l-0.4,0.7
+	C237.1,79.4,237.6,79.4,238.2,79.3z M240.2,77.5l0.4-0.1l-0.2-2.4l0-0.1l-0.9,0.2l0,0.1L240.2,77.5z M240.2,78.9l0.9-0.2l-0.2-0.9
+	l-0.8,0.2L240.2,78.9z"/>
+<path class="sp-awards-22" d="M242.2,84.2l-22,4.4l0.2,1l22-4.4L242.2,84.2z"/>
+<path class="sp-awards-22" d="M232.2,89.2l-11.5,2.3l0.2,1l11.5-2.3L232.2,89.2z"/>
+<path class="sp-awards-22" d="M238.5,91l-17.1,3.4l0.2,1l17.1-3.4L238.5,91z"/>
+<path class="sp-awards-22" d="M207.7,84c3.6-0.7,7.1,1.6,7.9,5.2c0.7,3.6-1.6,7.1-5.2,7.9c-3.6,0.7-7.1-1.6-7.9-5.2
+	C201.8,88.3,204.2,84.7,207.7,84z M207.5,82.6c-4.4,0.9-7.2,5.1-6.3,9.5c0.9,4.4,5.1,7.2,9.5,6.3c4.4-0.9,7.2-5.1,6.3-9.5
+	C216.1,84.6,211.9,81.8,207.5,82.6z M207.2,89.2c0.1,0.5-0.3,1.2-0.8,1.3c-0.5,0.1-1.2-0.3-1.3-0.8c-0.1-0.5,0.3-1.2,0.8-1.3
+	C206.5,88.3,207,88.6,207.2,89.2z M211.1,87.4c-0.5,0.1-0.9,0.6-0.8,1.3c0.1,0.5,0.6,0.9,1.3,0.8c0.5-0.1,0.9-0.6,0.8-1.3
+	C212.3,87.5,211.7,87.2,211.1,87.4z M211.9,92.2c-0.5,0.7-1.3,1.3-2.2,1.4c-0.9,0.2-1.8,0-2.6-0.5c-0.4-0.2-0.7-0.1-1,0.2
+	c-0.2,0.4-0.1,0.7,0.2,1c1.1,0.6,2.4,0.9,3.6,0.6c1.2-0.3,2.3-0.9,3-2c0.2-0.3,0.2-0.7-0.2-1c-0.2-0.1-0.4-0.2-0.5-0.1
+	C212.1,92,211.9,92.1,211.9,92.2z"/>
+<ellipse transform="matrix(0.4452 -0.8954 0.8954 0.4452 -32.6649 281.1256)" class="sp-awards-702" cx="210.5" cy="166.9" rx="3.3" ry="2.1"/>
+<circle class="sp-awards-2" cx="244.7" cy="164.5" r="4.7"/>
+<path class="sp-awards-346" d="M210.7,167.1c0,0,13.9,10.3,30.5-2.8"/>
+<g>
+	<path class="sp-awards-9" d="M249.9,157.9c0,0.1-0.1,0.2-0.1,0.3c-0.5,1.5-1.9,2.8-5,2.2c-3.1-0.6-4.2-2-4.6-3.3c-0.1-0.1,0-0.3-0.1-0.5
+		c-0.1-1.1,0.3-2,0.4-2.3c0-0.1,0.1-0.2,0.1-0.2l9.4,0.4c0,0,0.1,0.3,0.1,0.8C250.1,156.2,250.1,157.1,249.9,157.9z"/>
+	<path class="sp-awards-9" d="M254.6,178.9l-25.9-4.5c10.8-1.5,13-15.3,13-15.3c2.5-5.1,5.7,1.1,5.7,1.1c0,0.1,0,0.2,0,0.2
+		c-1.3,10.6,4.5,16.3,6.5,18C254.3,178.8,254.6,178.9,254.6,178.9z"/>
+	<path class="sp-awards-704" d="M248.8,155.2c-1.6-0.3-2.2-0.8-2.6-1.4c-0.4-0.7-0.1-1.4,0.2-1.8l2,1.7c0.3-0.3,0.3-0.6,0.2-0.8
+		c0-0.3-0.2-0.5-0.3-0.5c0.1,0,1,0.5,5.5,0.5c7.3-0.2,12.3-2.7,18.1-9.2c4.8-5.4,6.8-18.8,7.3-22.9l-4.2-0.7
+		c-1.5,4.4-7.3,7.2-7.5,7.4l-1.2-2.3c1.7-0.8,6-3.6,6.4-6.7l0.1-1.4l9.2,1.6l-0.1,1.2c-0.1,0.8-1.9,18.6-8.1,25.6
+		c-6.3,7.1-11.9,9.9-20,10.1C251.6,155.5,249.9,155.4,248.8,155.2z"/>
+	<path class="sp-awards-3" d="M262.7,182.5l-42.8-7.5l-2.3,13.2l42.8,7.5L262.7,182.5z"/>
+	<path class="sp-awards-9" d="M253.4,186.2l-0.3,1.7c-0.3,1.6-1.8,2.7-3.4,2.4l-19.8-3.5c-1.6-0.3-2.7-1.8-2.4-3.4l0.3-1.7
+		c0.3-1.6,1.8-2.7,3.4-2.4l19.8,3.5C252.6,183.1,253.6,184.6,253.4,186.2z"/>
+	<path class="sp-awards-9" d="M246.9,155.9c-0.6,0-1.2,0-1.8,0c-6.4-0.6-10.5-6.9-12.1-12.8c-2.5-8.6,0.1-16.5,1.6-25.1
+		c0.1-0.5,1.5-8.5,1.5-8.5l29,5.1c3.3,0.6,5.6,1,5.6,1l-3.4,19.4C267.1,135,263.8,154.8,246.9,155.9z"/>
+	<path class="sp-awards-704" d="M249.9,157.9c0,0.1,0,0.1,0,0.1c-1.6,0.5-5.2,1.9-9.7-1.4c-0.1-1.1,0.3-2,0.4-2.3c1.2,0.6,5.4,2.5,9.5,1.2
+		C250.1,156.2,250.1,157.1,249.9,157.9z"/>
+	<path class="sp-awards-704" d="M253.9,178.5l-7.6-1.2c-4.1-3.8-2-17-2-17c1.5,0.4,3.1,0.2,3.1,0.2C246.2,171.2,251.9,176.8,253.9,178.5z"/>
+	<path class="sp-awards-704" d="M246.9,156.1c-0.6,0-1.3-0.1-1.9-0.2c-0.1,0-0.1,0-0.1-0.1c0,0,10.4-3.4,14.7-15.4
+		c3.9-10.9,3.9-20.1,5.4-25.8c3.3,0.6,5.6,1,5.6,1l-3.4,19.4C267.1,135,263.9,154.9,246.9,156.1z"/>
+	<path class="sp-awards-591" d="M244.5,155.8c-16.1-5.4-6.3-39.9-4.7-45.5l6.1,1.1C236,150.3,244.5,155.8,244.5,155.8z"/>
+	<path class="sp-awards-591" d="M240.6,176.4c0,0-0.1,0-0.4,0.1l-5-0.9c0.1,0,0.2-0.1,0.2-0.1c5-2.6,7.2-15.8,7.2-15.8l0.4,0.1
+		c0,0-1,4.7-1.6,9.6C240.7,174.3,240.6,176.4,240.6,176.4z"/>
+	<path class="sp-awards-704" d="M253.4,186.2l-0.3,1.7c-0.3,1.6-1.8,2.7-3.4,2.4l-3.9-0.7l1.3-7.5l3.9,0.7
+		C252.6,183.1,253.6,184.6,253.4,186.2z"/>
+	<path class="sp-awards-591" d="M239.7,180.8l-5.7-1l-1.3,7.5l5.7,1L239.7,180.8z"/>
+	<path class="sp-awards-3" d="M247.9,185.7l-15.1-2.7c-0.3-0.1-0.6-0.4-0.5-0.7c0.1-0.3,0.4-0.6,0.7-0.5l15.1,2.7c0.3,0.1,0.6,0.4,0.5,0.7
+		C248.5,185.5,248.2,185.7,247.9,185.7z"/>
+	<path class="sp-awards-3" d="M247.4,188.5l-15.1-2.7c-0.3-0.1-0.6-0.4-0.5-0.7c0.1-0.3,0.4-0.6,0.7-0.5l15.1,2.7c0.3,0.1,0.6,0.4,0.5,0.7
+		C248.1,188.4,247.8,188.6,247.4,188.5z"/>
+	<path class="sp-awards-38" d="M260.8,197.7l-43.4-7.6c-0.9-0.2-1.5-1-1.4-1.9c0.2-0.9,1-1.5,1.9-1.4l43.4,7.6c0.9,0.2,1.5,1,1.4,1.9
+		C262.5,197.2,261.7,197.8,260.8,197.7z"/>
+	<path class="sp-awards-38" d="M263.2,183.5l-43.4-7.6c-0.9-0.2-1.5-1-1.4-1.9c0.2-0.9,1-1.5,1.9-1.4l43.4,7.6c0.9,0.2,1.5,1,1.4,1.9
+		C265,183.1,264.1,183.7,263.2,183.5z"/>
+	<path class="sp-awards-9" d="M242.2,154c1.6,0.3,2.4,0,2.9-0.4c0.6-0.5,0.6-1.3,0.4-1.8l-2.5,0.9c-0.2-0.4,0-0.7,0-0.8
+		c0.2-0.3,0.4-0.4,0.5-0.4c-0.1,0-1.1,0.2-5.4-1.5c-6.8-2.7-10.6-6.7-13.9-14.8c-2.7-6.6,0-20,0.9-24l4.2,0.7
+		c-0.1,4.7,4.3,9.3,4.6,9.5l1.9-1.8c-1.3-1.3-4.4-5.4-3.7-8.5l0.3-1.4l-9.2-1.6l-0.3,1.2c-0.2,0.7-4.6,18.1-1.1,26.8
+		c3.5,8.8,7.8,13.3,15.4,16.3C239.5,153.4,241.1,153.8,242.2,154z"/>
+</g>
+<path class="sp-awards-2" d="M247.8,168.1c0,0-1.3-6.8-7.8-7.4c-2.3-0.2-1.4-3.5,0.6-2.8c2,0.6,5,2.6,5,2.6s0.1-1.7-1.6-3.1
+	c-1.8-1.4-0.6-4,1.7-2.7s2.8,7,2.8,7L247.8,168.1z"/>
+<path class="sp-awards-703" d="M190.1,172.1c0.1-1-0.4-2.9-2.9-2.9s-2.9,1.9-3,2.6c0,1.1,0.8,1.6,0.7,2c0,0.2-0.1,0.3-0.2,0.4c0,0,0,0,0,0
+	l0,0c-0.1,0.1-0.2,0.1-0.2,0.3c0,0.2,0.6,0.2,1,0c-0.1,0.1-0.1,0.2-0.3,0.3c-0.2,0.1-0.4,0.2-0.4,0.3c0,0.1,0.6,0.4,1.2,0.1
+	c0.2-0.1,0.3-0.2,0.4-0.3c0,0,0,0,0,0.1c0,0.2,0.1,0.7,0.6,0.7c0.4,0,0.5-0.4,0.6-0.7c0,0,0,0,0-0.1c0.1,0.1,0.2,0.2,0.4,0.3
+	c0.6,0.3,1.2,0,1.2-0.1c0-0.1-0.2-0.2-0.4-0.3c-0.1-0.1-0.2-0.2-0.3-0.3c0.4,0.2,1,0.2,1,0c0-0.1,0-0.1-0.1-0.2l0,0c0,0,0,0-0.1-0.1
+	c-0.1-0.1-0.3-0.2-0.2-0.5C189.4,173.4,190,172.9,190.1,172.1z"/>
+</svg>

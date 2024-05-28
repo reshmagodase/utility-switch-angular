@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" viewBox="0 0 32 22" aria-labelledby="title-icon-menu" role="img">
+  <title id="title-icon-menu">A hamburger menu icon</title>
+  <defs>
+    <clipPath id="clip-icon-menu">
+      <rect width="32" height="22"/>
+    </clipPath>
+  </defs>
+  <g id="icon-menu" clip-path="url(#clip-icon-menu)">
+    <g id="icon-menu-2" data-name="icon-menu">
+      <rect width="32" height="4" rx="2" transform="translate(0 1)" fill="azure"/>
+      <rect width="32" height="4" rx="2" transform="translate(0 9)" fill="azure"/>
+      <rect width="32" height="4" rx="2" transform="translate(0 17)" fill="azure"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,253 @@
+<div class="maincontent">
+    <div class="container">
+        <div class="content">
+            <div class="details">
+                <h1>Step 3 of 5</h1>
+                <h2>Your details</h2>
+            </div>
+            <form [formGroup]="personaldetailsform" class="emailform" autocomplete="off">
+                <div class="row col-md-12">
+                    <div class="group col-md-6">
+                        <input type="text" formControlName="firstname" name="firstname" required="required" />
+                        <label>First name</label>
+                        <div *ngIf="submitted && f.firstname.errors">
+                            <div style="text-align: start;" class="error" *ngIf="f.firstname.errors.required">Please
+                                enter your first name
+                            </div>
+                            <!-- <div style="text-align: start;" class="error" *ngIf="f.firstname.errors.pattern">Please enter a valid email address
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="group col-md-6">
+                        <input type="text" formControlName="lastname" name="lastname" required="required" />
+                        <label>Last name</label>
+                        <div *ngIf="submitted && f.lastname.errors">
+                            <div style="text-align: start;" class="error" *ngIf="f.lastname.errors.required">Please
+                                enter your last name
+                            </div>
+                            <!-- <div style="text-align: start;" class="error" *ngIf="f.lastname.errors.pattern">Please enter a valid email address
+                               </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row col-md-12">
+                    <div class="group col-md-12">
+                        <input type="text" formControlName="email" name="email" required="required" />
+                        <label>Your email address</label>
+                        <div *ngIf="submitted && f.email.errors">
+                            <div style="text-align: start;" class="error" *ngIf="f.email.errors?.required">Email Id is required.
+                            </div>
+                            <div style="text-align: start;" class="error" *ngIf="f.email.errors?.pattern">Please enter a
+                                valid email address
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col-md-12">
+                    <div class="group col-md-10">
+                        <input type="text" formControlName="mobilenumber" name="mobilenumber" pattern="^(((\+44\s?\d{4}|\(?0\d{4}\)?)\s?\d{3}\s?\d{3})|((\+44\s?\d{3}|\(?0\d{3}\)?)\s?\d{3}\s?\d{4})|((\+44\s?\d{2}|\(?0\d{2}\)?)\s?\d{4}\s?\d{4}))(\s?\#(\d{4}|\d{3}))?$" required="required" />
+                        <label>Your mobile number</label>
+                        <div *ngIf="submitted && f.mobilenumber.errors">
+                            <div style="text-align: start;" class="error" *ngIf="f.mobilenumber.errors?.required">Mobile number is required</div>
+                            <div style="text-align: start;" class="error" *ngIf="f.mobilenumber.errors?.pattern">Please
+                                enter a valid UK phone number</div>
+                            <!-- <div style="text-align: start;" class="error" *ngIf="f.mobilenumber.errors.pattern">Please enter a valid email address
+                        </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="button" class="questionmarkbtn" (click)="displaydiv();">?</button>
+                    </div>
+                </div>
+                <div class="row col-md-12" *ngIf="questmarkdiv">
+                    <div class="col-md-12">
+                        <div class="questionmarkdiv">Our tariffs are paperless: we use email, SMS, and the occasional
+                            call to keep you informed about your
+                            service. We hate spam too and won't sell your data on the sly.</div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-12">
+                    <div class="">
+                        <h5 style="font-weight: 600;">Getting in touch</h5>
+                        <div class="gettingintouchdiv" style="font-weight: 100;">From time to time we'd like to drop you
+                            a line about things we're doing which you might be
+                            interested in, like giveaways, information about your green impact, or ways of saving.
+                            If you let us, we promise to rein ourselves in on this - and if we don't, then you can tell
+                            us
+                            any time.
+                        </div>
+                    </div>
+                    <!-- <div class="inputdiv">
+                <input class="inputcheckbox" type="checkbox"  id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">Yes</label><br>
+                <input class="inputcheckbox" type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">No</label><br>
+                </div> -->
+                    <div class="inputdiv">
+                        <input class="inputcheckbox" type="radio" name="flexRadioDefault">
+                        <label class="inputcheckbox" for="flexRadioDefault1">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="inputdiv">
+                        <input class="inputcheckbox" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="inputcheckbox" for="flexRadioDefault2">
+                            No
+                        </label>
+                    </div>
+                </div><br>
+                <div class="row col-md-12">
+                    <div class="group col-md-12">
+                        <input type="text" formControlName="address" name="address" pattern="^[A-Z]{1,2}[0-9RCHNQ][0-9A-Z]?\s?[0-9][ABD-HJLNP-UW-Z]{2}$|^[A-Z]{2}-?[0-9]{4}$" required="required" />
+                        <label>Postcode</label>
+                        <div *ngIf="submitted && f.address.errors">
+                            <div style="text-align: start;" class="error" *ngIf="f.address.errors?.required">Postcode is required
+                            </div>
+                            <div style="text-align: start;" class="error" *ngIf="f.address.errors?.pattern">Please enter
+                                a valid postcode
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select">
+                        <select class="select-text" (change)="onchange($event)">
+                            <option value=""></option>
+                            <option value="0" >Address 1</option>
+                            <option value="1">2 Lowlands Court Lowlands Road, Harrow, Middlesex, HA1 3AW</option>
+                            <option value="2">2 Lowlands Court Lowlands Road, Harrow, Middlesex, HA1 3AW</option>
+                            <option value="3">Address 3</option>
+                            <option value="4">2 Lowlands Court Lowlands Road, Harrow, Middlesex, HA1 3AW</option>
+                        </select>
+                        <span class="select-highlight"></span>
+                        <span class="select-bar"></span>
+                        <label class="select-label">Select your address</label>
+                    </div>
+                </div><br>
+                <div class="row col-md-12">
+                    <button type="button" class="cantfindaddressbtn" (click)="addressdetails();">Can't find your
+                        address?<span><i class='fas fa-caret-down' style="padding-left: 5px;"></i></span></button>
+                    <div class="manualaddressentry" *ngIf="addressdetailsdiv">
+                        <div class="adressinnerdiv">
+                            <h4>Your address</h4>
+                            <div class="row col-md-12">
+                                <div class="group col-md-12">
+                                    <input type="text" formControlName="address1" name="address1" required="required" />
+                                    <label>Address 1</label>
+                                    <!-- <div *ngIf="submitted && f.email.errors">
+                                        <div style="text-align: start;" class="error" *ngIf="f.email.errors.required">
+                                            Please enter a valid email address
+                                        </div>
+                                        <div style="text-align: start;" class="error" *ngIf="f.email.errors.pattern">
+                                            Please enter a valid email address
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="row col-md-12">
+                                <div class="group col-md-12">
+                                    <input type="text" formControlName="address2" name="address2" required="required" />
+                                    <label>Address 2</label>
+                                </div>
+                            </div>
+                            <div class="row col-md-12">
+                                <div class="group col-md-12">
+                                    <input type="text" formControlName="address3" name="address3" required="required" />
+                                    <label>Address 3</label>
+                                </div>
+                            </div>
+                            <div class="row col-md-12">
+                                <div class="group col-md-12">
+                                    <input type="text" formControlName="city" name="city" required="required" />
+                                    <label>Town / City</label>
+                                </div>
+                            </div>
+                            <div class="row col-md-12">
+                                <div class="group col-md-12">
+                                    <input type="text" formControlName="country" name="country" required="required" />
+                                    <label>Country</label>
+                                </div>
+                            </div>
+                            <div class="row col-md-12">
+                                <div class="group col-md-12">
+                                    <input type="text" formControlName="postcode" name="postcode" required="required" />
+                                    <label>Postcode</label>
+                                    <div *ngIf="submitted && f.email.errors">
+                                        <div style="text-align: start;" class="error" *ngIf="f.email.errors.required">
+                                            Please enter a valid email address
+                                        </div>
+                                        <div style="text-align: start;" class="error" *ngIf="f.email.errors.pattern">
+                                            Please enter a valid email address
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <!-- ************************************************************************************************************* -->
+                <div class="row col-md-12" *ngIf="addressmismatchstatus">
+                    <div class="group col-md-12">
+                        <div class="mitermismatchdiv1">
+                            <div class="mitermismatchdiv">
+                                <h5>Meter Type Mismatch</h5>
+                                <p>Our records say that you have selected the wrong meter type for your home.</p>
+                                <p>Return to the quote page and select Economy7 meter to get an accurate quote for your
+                                    home.</p>
+                                <p>If that doesn't sound right, please email us at hello@octopus.energy and one of our
+                                    nice energy specialists will help you out</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ************************************************************************************************************** -->
+                <div class="row col-md-12">
+                    <div class="col-md-12">
+                        <div class="checkboxdiv">
+                            <input class="inputcheckbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label class="" for="vehicle1" style="padding-left: 3px; font-size: 17px;"> My name is on
+                                the energy bills for this address</label>
+                        </div>
+                        <div class="row col-md-12 checkboxdiv">
+                            <div class="col-md-10">
+                                <input class="inputcheckbox" type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                <label class="" for="vehicle2" style="padding-left: 3px;font-size: 17px;"> Support for
+                                    vulnerable customers</label>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="button" style="margin-left: 23px;" class="questionmarkbtn"
+                                    (click)="displaycustomersupportdiv();">?</button>
+                            </div>
+
+                            <div class="manualaddressentry" *ngIf="supportcustomerdiv">
+                                <div class="adressinnerdiv">
+                                    <h5>This is for you if:</h5>
+                                    <ul>
+                                        <li>If you, or someone living in your home, has a health condition that requires
+                                            a constant power supply to your home, such as a home ventilator.</li>
+                                        <li>You have restricted movement and need help reading your meter</li>
+                                        <li>You have learning difficulties, dementia or need help understanding your
+                                            bill.</li>
+                                        <li>You need extra help authorising industry members who visit your home. We
+                                            will email to find out exactly what you need help with.</li>
+                                    </ul>
+                                    <p>We will email to find out exactly what you need help with.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkboxdiv">
+                            <input class="inputcheckbox" type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label class="checkboxlabel3" for="vehicle3" style="font-size: 17px;">I accept that Octopus
+                                Energy, like most energy companies, will perform a credit check when I select "Step 4:
+                                Payment" below.</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-full1"><br><br>
+                    <button type="button" class="quotebtn" (click)="addpersonaldetails();">Step 4: Payment</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,109 @@
+<!-- Desktop view -->
+<div class="d-none d-sm-block">
+    <div class="container-fluid maincontent">
+        <div class="container content">
+                <h3>Greener energy for your home or business</h3>
+                <p>
+                    <strong>Important:
+                        <button type="button" class="energypricebtn"> Why are energy prices so high right now?</button>
+                    </strong>
+                </p>
+                <div class="switchcontent" style="text-align: center;">
+                    <label class="monthlyannualyswitc">
+                        Monthly
+                        <div class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </div>
+                        Annually
+                    </label>
+                </div>
+                <div *ngFor="let price of Rates">
+                <div class="flex-container row" *ngFor="let suppliers of supplierList">
+                    <div class="col-md-4 flex-item" *ngIf="suppliers.supplierName == price.Supplier">
+                        <div class="flextcontent">
+                            <img [src]="suppliers.supplierLogo" style="max-width: 100px;" />
+                            <p><span class="flexibletext"></span><span class="octopustext">{{price.Supplier}}</span></p>
+                            <h4>{{price.AnnualPrice}}</h4>
+                            <p>Annually estimate</p>
+                            <button type="button" class="tarrifinfobtn">Tarrif info</button>
+                            <div class="pricesrices">
+                                <span>🌊️</span>
+                                <p>Your prices can rise and fall</p>
+                            </div>
+                            <div class="pricesrices">
+                                <span>🌎</span>
+                                <p><span style="color: #18f0b8;">100% renewable</span> electricity</p>
+                            </div>
+                            <div class="pricesrices">
+                                <span>🙅‍♀️</span>
+                                <p>No exit fees</p>
+                            </div>
+                            <div class="pricesrices">
+                                <span>🏆</span>
+                                <p>Award winning service</p>
+                            </div>
+                            <button type="button" class="quotebtn" (click)="signmeup(price,suppliers);">Sign me up</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                </div>
+                <div class="backbtn">
+                    <button type="button" class="gobackbtn" (click)="backmethod();"><i class='fas fa-angle-left'></i><span>Go back</span></button>
+                </div><br>
+                <div class="maindiv">
+                    <div class="hdsh">
+                        <mat-accordion class="example-headers-align" multi>
+                    <!-- #enddocregion multi -->
+                            <mat-expansion-panel style="color: #FFFFFF;">
+                            <mat-expansion-panel-header style="color: #FFFFFF;">
+                            <div class="my-panel" style="color: #FFFFFF;">
+                            <button style="width: 53%;" style="color: #FFFFFF;"> Interested in one of our innovative tariffs?</button>
+                   <!-- <button  (click)="myButton()"></button> -->
+                        </div>
+                      </mat-expansion-panel-header>
+                  
+                      <div class="collapsecontent">
+                        <div class="intelligentoptopus">
+                            <h3>Intelligent Octopus</h3>
+                            <p>This tariff gives you six hours of smart charging every night at a super low rate. 
+                                You tell us what time you need your car by,  and we'll make sure your car only 
+                                charges up on the very greenest energy. Find out more <a class="energypricebtn1"> Find out more</a>
+                            </p>
+                        </div>
+                        <div class="cosyocto">
+                            <h3>Cosy Octopus</h3>
+                            <p>This tariff gives you six hours of smart charging every night at a super low rate. 
+                                You tell us what time you need your car by,  and we'll make sure your car only 
+                                charges up on the very greenest energy. Find out more <a class="energypricebtn1"> Find out more</a>
+                            </p>
+                        </div>
+                        <div class="agileocto">
+                            <h3>Agile Octopus</h3>
+                            <p>This tariff gives you six hours of smart charging every night at a super low rate. 
+                                You tell us what time you need your car by,  and we'll make sure your car only 
+                                charges up on the very greenest energy. Find out more <a class="energypricebtn1"> Find out more</a>
+                            </p>
+                        </div>
+                      </div>
+                    </mat-expansion-panel>
+                  </mat-accordion>
+                </div>
+            </div>
+            <div class="starimg">
+                <img
+                src="assets/icons/logos/trustpilot.ad3682a039bc.svg"
+                class="trustpilot-logo svg"
+                alt="Trustpilot logo"
+                loading="lazy" width="300" height="150"
+            />
+            </div>
+                  <br><br><br>
+            </div>
+        </div>
+    </div>
+<!-- Mobile View -->
+<div class="d-sm-none">
+    <h1>HII IN MOBILE</h1>
+</div>

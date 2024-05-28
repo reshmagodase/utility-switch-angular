@@ -1,0 +1,195 @@
+@import "../../../scss/_variables";
+
+.maincontent{
+  background-color:$header-background-color;
+  height: auto;
+  width: 100%;
+}
+.content{
+    width: 55%;
+    margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .content{
+      margin: auto;
+      padding: 10px;
+      width: 100%;
+      height: auto;
+   }
+    .maincontent{
+      width: 100%;
+      height: auto;
+     }
+}
+
+@media only screen and (max-width: 900px) {
+  .content{
+      margin: auto;
+      padding: 10px;
+      width: 100%;
+      height: auto;
+   }
+    .maincontent{
+      width: 100%;
+      height: auto;
+     }
+}
+// @media only screen and (max-width: 767px) {
+//   .maincontent{
+//       height: ;
+//     }
+// }
+@media only screen and (min-width: 393px) and (min-height: 851px) {
+   .maincontent{
+    height: -webkit-fill-available;
+  }
+}
+@media only screen and (min-width: 390px) and (min-height: 844px) {
+  .maincontent{
+   height: -webkit-fill-available;
+ }
+}
+.details h1{
+    padding-top: 1.8rem;
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+    color: rgb(240, 255, 255);
+}
+
+// **************************form input************************************************
+$bg-color: #424242;
+$hl-color: #FFFFFF;
+$muted-color: mix(white, $bg-color, 70%);
+$trans-time: 300ms;
+$width: 320px;
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+body {
+  background: $bg-color;
+}
+.group {
+  position: relative;
+  margin: 10px 0;
+}
+input{
+  background: none;
+  color: white;
+  font-size: 18px;
+  padding: 20px 10px 0px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #809298;;
+  &:focus {
+    outline: none;
+  }
+  &:focus ~ label,
+  &:valid ~ label {
+    top: -14px;
+    font-size: 21px;
+    color: #FFFFFF;
+  }
+  &:focus ~ .bar:before {
+    width: $width;
+  }
+}
+.group label, i{
+  color: mix(white, $bg-color, 70%);
+  font-size: 20px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+//   left: 5px;
+  top: 10px;
+  transition: $trans-time ease all;
+}
+
+.group i{
+    width: 97%;
+    text-align:end;
+  }
+  .reveal-button{
+    position: absolute;
+    right: 1rem;
+    width: 2.1rem;
+    height: 3.4rem;
+    /* padding: 0; */
+    text-indent: -9999px;
+    background-color: transparent;
+    background-image: url(/assets/icons/eye.b5d5d5a88889.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    opacity: .7;
+    transform: translateY(-90%);
+    transition: opacity .15s ease;
+}
+.reveal-button.is-active, .populated .reveal-button.is-active {
+  background-image: url(/assets/icons/eye-closed.446083c111ee.svg);
+  background-position: center 60%;
+  background-size: 85%;
+}
+// ***********************************************************************************
+.forgotpassword-text{
+    padding-bottom: 6px;
+        font-weight: 500;
+        text-align: center;
+        font-size: 1.4rem;
+        line-height: 3.6rem;
+        letter-spacing: -.035rem;
+        color: #60f0eb;
+}
+.quotebtn{
+    font-weight: 500;
+    margin-bottom: 1.6rem;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    background: rgb(240, 80, 248);
+    border: 0.2rem solid rgb(240, 80, 248);
+    border-radius: 0.8rem;
+    outline: none;
+    box-shadow: rgba(16, 0, 48, 0.24) 0px 0.2rem 0.4rem 0.2rem;
+    font-size: 1.5rem;
+    transition: background-color 0.2s ease-out 0s, border-color 0.2s ease-out 0s;
+ }
+ .accounttext{
+    margin: 2.4rem 0;
+    border: 0.1rem solid #5840ff;
+    border-radius: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -.035rem;
+    color: #FFFFFF;
+    padding: 1.8rem;
+   }
+   .accounttext h5{
+    margin-bottom: 0px;
+   }
+   .accounttext a{
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-decoration: underline;
+   }
+   .accounttext p{
+    font-weight: 300;
+    margin: 0;
+    font-size: 1.4rem;
+   }
+.package-rating-detail[_ngcontent-c3] {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.3em; 
+  margin-left: 1em; 
+}
